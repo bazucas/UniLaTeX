@@ -51,6 +51,13 @@
 	\renewcommand{\listtablename}{\fontsize{14pt}{16pt}\selectfont Lista de Tabelas}
 }
 
+% Configuração de títulos e pontos no Índice
+\renewcommand{\cftchapdotsep}{\cftdotsep} % Ativar pontos nos capítulos
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}} % Ativar líderes de pontos nos capítulos
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % Ativar líderes de pontos nas seções
+\renewcommand{\cftsubsecleader}{\cftdotfill{\cftdotsep}} % Ativar líderes de pontos nas subseções
+
+
 % Ajuste de cabeçalhos
 \usepackage{fancyhdr}
 \fancypagestyle{conteudo}{

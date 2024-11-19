@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.11.19)  19 NOV 2024 22:42
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.11.19)  19 NOV 2024 22:45
  restricted system commands enabled.
 **principal.tex
 (./principal.tex
@@ -977,13 +977,13 @@ Here is how much of LuaTeX's memory you used:
  851 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 4 glue, 4 kern, 1 glyph, 13 attribute, 116 glue_spe
 c, 8 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 2:726,3:190,4:44,5:118,6:50,7:2589,8:26,9:286,10:26,11:256
+   avail lists: 2:696,3:191,4:44,5:118,6:49,7:2589,8:26,9:286,10:26,11:256
  39155 multiletter control sequences out of 65536+600000
  50 fonts using 17649703 bytes
  84i,8n,95p,546b,385s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Windows/Fonts/timesi.ttf><C:/Windows/Fonts/times.ttf><C:/Windows/Fonts/times
 bd.ttf>
-Output written on principal.pdf (17 pages, 298023 bytes).
+Output written on principal.pdf (17 pages, 298154 bytes).
 
 PDF statistics: 242 PDF objects out of 1000 (max. 8388607)
  40 named destinations out of 1000 (max. 131072)
