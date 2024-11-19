@@ -1,8 +1,8 @@
 \babel@toc {portuguese}{}\relax 
-\contentsline {chapter}{Agradecimentos}{ii}{chapter*.1}%
-\contentsline {chapter}{Resumo}{iii}{chapter*.2}%
-\contentsline {chapter}{Abstract}{iv}{chapter*.3}%
-\contentsline {chapter}{Lista de Abreviaturas e Siglas}{viii}{chapter*.4}%
+\contentsline {chapter}{Agradecimentos}{2}{chapter*.1}%
+\contentsline {chapter}{Resumo}{3}{chapter*.2}%
+\contentsline {chapter}{Abstract}{4}{chapter*.3}%
+\contentsline {chapter}{Lista de Abreviaturas e Siglas}{8}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}Introdução}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Definição e Contexto}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Desafios Atuais}{1}{section.1.2}%

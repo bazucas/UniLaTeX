@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.11.19)  19 NOV 2024 21:49
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.11.19)  19 NOV 2024 22:23
  restricted system commands enabled.
 **principal.tex
 (./principal.tex
@@ -59,15 +59,7 @@ iKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
 \belowcaptionskip=\skip50
 \bibindent=\dimen140
 )
-(C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty
-Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
-
-
-Package inputenc Warning: inputenc package ignored with utf8 based engines.
-
-) (C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty
+(C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty
 Package: babel 2024/11/08 v24.13 The multilingual framework for pdfLaTeX, LuaLa
 TeX and XeLaTeX
 
@@ -187,7 +179,7 @@ Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
 (C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks19
+\KV@toks@=\toks17
 )
 (C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
@@ -215,7 +207,7 @@ Package: amstext 2021/08/26 v2.01 AMS text
 
 (C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks20
+\@emptytoks=\toks18
 \ex@=\dimen144
 ))
 (C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsbsy.sty
@@ -255,21 +247,21 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \dotsspace@=\muskip17
 \c@parentequation=\count277
 \dspbrk@lvl=\count278
-\tag@help=\toks21
+\tag@help=\toks19
 \row@=\count279
 \column@=\count280
 \maxfields@=\count281
-\andhelp@=\toks22
+\andhelp@=\toks20
 \eqnshift@=\dimen147
 \alignsep@=\dimen148
 \tagshift@=\dimen149
 \tagwidth@=\dimen150
 \totwidth@=\dimen151
 \lineht@=\dimen152
-\@envbody=\toks23
+\@envbody=\toks21
 \multlinegap=\skip52
 \multlinetaggap=\skip53
-\mathdisplay@stack=\toks24
+\mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
@@ -293,7 +285,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutheight=\dimen158
 \Gm@layouthoffset=\dimen159
 \Gm@layoutvoffset=\dimen160
-\Gm@dimlist=\toks25
+\Gm@dimlist=\toks23
 
 (C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.cfg)) (C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
@@ -304,7 +296,7 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \aftertitleunit=\skip55
 \ttl@plus=\dimen161
 \ttl@minus=\dimen162
-\ttl@toksa=\toks26
+\ttl@toksa=\toks24
 \titlewidth=\dimen163
 \titlewidthlast=\dimen164
 \titlewidthfirst=\dimen165
@@ -365,7 +357,7 @@ Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \LT@rows=\count289
 \c@LT@tables=\count290
 \c@LT@chunks=\count291
-\LT@p@ftn=\toks27
+\LT@p@ftn=\toks25
 )
 (C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/latex/lipsum/lipsum.sty
 (C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/l3keys2e/l3k
@@ -391,7 +383,7 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip94
 \enit@outerparindent=\dimen167
-\enit@toks=\toks28
+\enit@toks=\toks26
 \enit@inbox=\box61
 \enit@count@id=\count296
 \enitdp@description=\count297
@@ -470,7 +462,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks29
+\pdftexcmds@toks=\toks27
 ))
 (C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
@@ -612,7 +604,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count322
 )
-LaTeX Info: Redefining \BBA on input line 18.
+LaTeX Info: Redefining \BBA on input line 19.
 
 (C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/latex/tools/indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
@@ -697,12 +689,12 @@ ii
 \scratchbox=\box62
 \nofMPsegments=\count324
 \nofMParguments=\count325
-\everyMPshowfont=\toks30
+\everyMPshowfont=\toks28
 \MPscratchCnt=\count326
 \MPscratchDim=\dimen176
 \MPnumerator=\count327
 \makeMPintoPDFobject=\count328
-\everyMPtoPDFconversion=\toks31
+\everyMPtoPDFconversion=\toks29
 )
 (C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-b
 ase.sty
@@ -830,9 +822,8 @@ File: iscte.png Graphic file (type png)
 Package luatex.def Info: iscte.png  used on input line 3.
 (luatex.def)             Requested size: 227.62206pt x 146.42316pt.
 
-Overfull \hbox (4.54195pt too wide) in paragraph at lines 5--16
-\TU/TimesNewRoman(0)/b/n/24.88 De-sen-vol-vi-mento de mo-de-los pre-di-ti-vos co
-m
+Underfull \hbox (badness 6526) in paragraph at lines 5--16
+\TU/TimesNewRoman(0)/b/n/24.88 De-sen-vol-vi-mento de mo-de-los pre-di-ti-vos
  []
 
 
@@ -843,7 +834,7 @@ m
 ) (./pag_branco.tex
 
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.i'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1]) (./contracapa.tex
 <ista.png, id=76, 2830.575pt x 1675.25874pt>
 File: ista.png Graphic file (type png)
@@ -851,15 +842,14 @@ File: ista.png Graphic file (type png)
 Package luatex.def Info: ista.png  used on input line 3.
 (luatex.def)             Requested size: 227.62206pt x 134.71362pt.
 
-Overfull \hbox (4.54195pt too wide) in paragraph at lines 5--16
-\TU/TimesNewRoman(0)/b/n/24.88 De-sen-vol-vi-mento de mo-de-los pre-di-ti-vos co
-m
+Underfull \hbox (badness 6526) in paragraph at lines 5--16
+\TU/TimesNewRoman(0)/b/n/24.88 De-sen-vol-vi-mento de mo-de-los pre-di-ti-vos
  []
 
 
 
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.i'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1<./ista.png>]) (./copyright.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--8
 
@@ -868,7 +858,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--8
 
 
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.i'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1]) (./agradecimentos.tex) (./resumo.tex
 
 [2
@@ -912,30 +902,36 @@ Package luatex.def Info: example-image-a.pdf  used on input line 64.
 (luatex.def)             Requested size: 227.62206pt x 170.72038pt.
 
 
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
 <C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/latex/mwe/example-image-a.pdf>
 ]
 Cap\'{\i }tulo 2.
-<example-image-b.pdf, id=167, 321.2pt x 240.9pt>
+<example-image-b.pdf, id=166, 321.2pt x 240.9pt>
 File: example-image-b.pdf Graphic file (type pdf)
 <use example-image-b.pdf>
 Package luatex.def Info: example-image-b.pdf  used on input line 91.
 (luatex.def)             Requested size: 318.66948pt x 239.01001pt.
 
 
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 [2
 
 <C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/latex/mwe/example-image-b.pdf>
 ]
 Cap\'{\i }tulo 3.
-<example-image-c.pdf, id=187, 321.2pt x 240.9pt>
+<example-image-c.pdf, id=185, 321.2pt x 240.9pt>
 File: example-image-c.pdf Graphic file (type pdf)
 <use example-image-c.pdf>
 Package luatex.def Info: example-image-c.pdf  used on input line 117.
 (luatex.def)             Requested size: 455.24411pt x 341.44446pt.
 
 
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.3'
 [3
 
 <C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/latex/mwe/example-image-c.pdf>
@@ -943,10 +939,14 @@ Package luatex.def Info: example-image-c.pdf  used on input line 117.
 Cap\'{\i }tulo 4.
 
 
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.4'
 [4
 
 ] (./principal.bbl)
 
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.5'
 [5
 
 
@@ -958,6 +958,8 @@ adhyph-la.tex UTF-8 Latin hyphenation patterns
 (C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/generic/hyph-utf8/patterns/te
 x/hyph-la.tex))
 
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.6'
 [6
 
 ] (./principal.aux)
@@ -970,20 +972,20 @@ Package rerunfilecheck Info: File `principal.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 16747 strings out of 475664
+ 16710 strings out of 475664
  125062,1144653 words of node,token memory allocated
  851 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 4 glue, 4 kern, 1 glyph, 13 attribute, 116 glue_spe
 c, 8 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 2:699,3:191,4:44,5:118,6:49,7:2585,8:26,9:286,10:11,11:256
- 39179 multiletter control sequences out of 65536+600000
+   avail lists: 2:729,3:190,4:44,5:118,6:49,7:2589,8:26,9:286,10:26,11:256
+ 39153 multiletter control sequences out of 65536+600000
  50 fonts using 17649703 bytes
  84i,8n,95p,546b,385s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Windows/Fonts/timesi.ttf><C:/Windows/Fonts/times.ttf><C:/Windows/Fonts/times
 bd.ttf>
-Output written on principal.pdf (17 pages, 298381 bytes).
+Output written on principal.pdf (17 pages, 298004 bytes).
 
-PDF statistics: 248 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 131072)
+PDF statistics: 242 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 131072)
  129 words of extra memory for PDF output out of 10000 (max. 100000000)
 
