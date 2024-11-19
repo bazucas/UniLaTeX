@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.11.19)  19 NOV 2024 22:32
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.11.19)  19 NOV 2024 22:42
  restricted system commands enabled.
 **principal.tex
 (./principal.tex
@@ -715,14 +715,14 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
-* v-part:(T,H,B)=(56.9055pt, 717.00946pt, 71.13188pt)
+* v-part:(T,H,B)=(0.0pt, 773.91496pt, 71.13188pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=455.24411pt
-* \textheight=717.00946pt
+* \textheight=773.91496pt
 * \oddsidemargin=-1.1381pt
 * \evensidemargin=-1.1381pt
-* \topmargin=-52.36449pt
+* \topmargin=-109.26999pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -819,10 +819,10 @@ found.
 <iscte.png, id=66, 335.19968pt x 215.62135pt>
 File: iscte.png Graphic file (type png)
 <use iscte.png>
-Package luatex.def Info: iscte.png  used on input line 3.
+Package luatex.def Info: iscte.png  used on input line 5.
 (luatex.def)             Requested size: 227.62206pt x 146.42316pt.
 
-Underfull \hbox (badness 6526) in paragraph at lines 5--16
+Underfull \hbox (badness 6526) in paragraph at lines 8--19
 \TU/TimesNewRoman(0)/b/n/24.88 De-sen-vol-vi-mento de mo-de-los pre-di-ti-vos
  []
 
@@ -839,10 +839,10 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 <ista.png, id=76, 2830.575pt x 1675.25874pt>
 File: ista.png Graphic file (type png)
 <use ista.png>
-Package luatex.def Info: ista.png  used on input line 3.
+Package luatex.def Info: ista.png  used on input line 5.
 (luatex.def)             Requested size: 227.62206pt x 134.71362pt.
 
-Underfull \hbox (badness 6526) in paragraph at lines 5--16
+Underfull \hbox (badness 6526) in paragraph at lines 8--20
 \TU/TimesNewRoman(0)/b/n/24.88 De-sen-vol-vi-mento de mo-de-los pre-di-ti-vos
  []
 
@@ -851,7 +851,7 @@ Underfull \hbox (badness 6526) in paragraph at lines 5--16
 
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1<./ista.png>]) (./copyright.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--8
+Underfull \hbox (badness 10000) in paragraph at lines 4--9
 
  []
 
@@ -972,18 +972,18 @@ Package rerunfilecheck Info: File `principal.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 16710 strings out of 475664
+ 16712 strings out of 475664
  125062,1144653 words of node,token memory allocated
  851 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 4 glue, 4 kern, 1 glyph, 13 attribute, 116 glue_spe
 c, 8 attribute_list, 1 write, 1 pdf_action nodes
-   avail lists: 2:729,3:190,4:44,5:118,6:49,7:2589,8:26,9:286,10:26,11:256
- 39153 multiletter control sequences out of 65536+600000
+   avail lists: 2:726,3:190,4:44,5:118,6:50,7:2589,8:26,9:286,10:26,11:256
+ 39155 multiletter control sequences out of 65536+600000
  50 fonts using 17649703 bytes
  84i,8n,95p,546b,385s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Windows/Fonts/timesi.ttf><C:/Windows/Fonts/times.ttf><C:/Windows/Fonts/times
 bd.ttf>
-Output written on principal.pdf (17 pages, 297993 bytes).
+Output written on principal.pdf (17 pages, 298023 bytes).
 
 PDF statistics: 242 PDF objects out of 1000 (max. 8388607)
  40 named destinations out of 1000 (max. 131072)
