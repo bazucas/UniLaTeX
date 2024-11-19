@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.11.19)  19 NOV 2024 22:45
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.11.19)  19 NOV 2024 23:00
  restricted system commands enabled.
 **principal.tex
 (./principal.tex
@@ -983,7 +983,7 @@ c, 8 attribute_list, 1 write, 1 pdf_action nodes
  84i,8n,95p,546b,385s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Windows/Fonts/timesi.ttf><C:/Windows/Fonts/times.ttf><C:/Windows/Fonts/times
 bd.ttf>
-Output written on principal.pdf (17 pages, 298154 bytes).
+Output written on principal.pdf (17 pages, 298151 bytes).
 
 PDF statistics: 242 PDF objects out of 1000 (max. 8388607)
  40 named destinations out of 1000 (max. 131072)
