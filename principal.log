@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.11.19)  19 NOV 2024 23:00
+This is LuaHBTeX, Version 1.18.1 (MiKTeX 24.4) (format=lualatex 2024.11.19)  19 NOV 2024 23:16
  restricted system commands enabled.
 **principal.tex
 (./principal.tex
@@ -861,15 +861,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--9
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1]) (./agradecimentos.tex) (./resumo.tex
 
-[2
+[1
 
 ]
 
-[3
+[2
 
 ]) (./abstract.tex
 
-[4
+[3
 
 ]) (./principal.toc)
 \tf@toc=\write4
@@ -877,28 +877,28 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 \openout4 = principal.toc
 
 
-[5] (./principal.lof)
+[4] (./principal.lof)
 \tf@lof=\write5
 
 \openout5 = principal.lof
 
 
-[6] (./principal.lot)
+[5] (./principal.lot)
 \tf@lot=\write6
 
 \openout6 = principal.lot
 
 
-[7]
+[6]
 
-[8
+[7
 
 ]
 Cap\'{\i }tulo 1.
 <example-image-a.pdf, id=146, 321.2pt x 240.9pt>
 File: example-image-a.pdf Graphic file (type pdf)
 <use example-image-a.pdf>
-Package luatex.def Info: example-image-a.pdf  used on input line 64.
+Package luatex.def Info: example-image-a.pdf  used on input line 68.
 (luatex.def)             Requested size: 227.62206pt x 170.72038pt.
 
 
@@ -912,26 +912,22 @@ Cap\'{\i }tulo 2.
 <example-image-b.pdf, id=166, 321.2pt x 240.9pt>
 File: example-image-b.pdf Graphic file (type pdf)
 <use example-image-b.pdf>
-Package luatex.def Info: example-image-b.pdf  used on input line 91.
+Package luatex.def Info: example-image-b.pdf  used on input line 95.
 (luatex.def)             Requested size: 318.66948pt x 239.01001pt.
 
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 [2
 
 <C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/latex/mwe/example-image-b.pdf>
 ]
 Cap\'{\i }tulo 3.
-<example-image-c.pdf, id=185, 321.2pt x 240.9pt>
+<example-image-c.pdf, id=186, 321.2pt x 240.9pt>
 File: example-image-c.pdf Graphic file (type pdf)
 <use example-image-c.pdf>
-Package luatex.def Info: example-image-c.pdf  used on input line 117.
+Package luatex.def Info: example-image-c.pdf  used on input line 121.
 (luatex.def)             Requested size: 455.24411pt x 341.44446pt.
 
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.3'
 [3
 
 <C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/latex/mwe/example-image-c.pdf>
@@ -939,14 +935,10 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.3'
 Cap\'{\i }tulo 4.
 
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.4'
 [4
 
 ] (./principal.bbl)
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.5'
 [5
 
 
@@ -958,8 +950,6 @@ adhyph-la.tex UTF-8 Latin hyphenation patterns
 (C:/Users/lrsin/AppData/Local/Programs/MiKTeX/tex/generic/hyph-utf8/patterns/te
 x/hyph-la.tex))
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.6'
 [6
 
 ] (./principal.aux)
@@ -972,7 +962,7 @@ Package rerunfilecheck Info: File `principal.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 16712 strings out of 475664
+ 16717 strings out of 475664
  125062,1144653 words of node,token memory allocated
  851 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 4 glue, 4 kern, 1 glyph, 13 attribute, 116 glue_spe
@@ -983,9 +973,9 @@ c, 8 attribute_list, 1 write, 1 pdf_action nodes
  84i,8n,95p,546b,385s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Windows/Fonts/timesi.ttf><C:/Windows/Fonts/times.ttf><C:/Windows/Fonts/times
 bd.ttf>
-Output written on principal.pdf (17 pages, 298151 bytes).
+Output written on principal.pdf (17 pages, 298306 bytes).
 
-PDF statistics: 242 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 131072)
+PDF statistics: 247 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 131072)
  129 words of extra memory for PDF output out of 10000 (max. 100000000)
 
