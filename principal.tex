@@ -32,40 +32,100 @@
 	\listoftables
 	\newpage
 	
-	% Lista de Abreviaturas e Siglas
-	\input{abreviaturas}
+	% Lista de Abreviaturas e Siglas (com glossário)
+	\chapter*{Lista de Abreviaturas e Siglas}
+	\addcontentsline{toc}{chapter}{Lista de Abreviaturas e Siglas}
+	\begin{longtable}{p{3cm}p{10cm}}
+		\textbf{Sigla} & \textbf{Descrição} \\
+		\hline
+		API & Application Programming Interface \\
+		BI & Business Intelligence \\
+		KPI & Key Performance Indicator \\
+		Deep Learning & Subcampo do machine learning que utiliza redes neurais profundas. \\
+		Hiperparâmetros & Parâmetros ajustados antes do treinamento do modelo. \\
+		Overfitting & Quando o modelo se ajusta demais aos dados de treinamento. \\
+		Batch Size & Número de exemplos processados por vez durante o treinamento. \\
+	\end{longtable}
 	
 	% Começar numeração árabe
 	\newpage
 	\pagenumbering{arabic}
 	
+	% Ativar cabeçalho personalizado
+	\pagestyle{conteudo}
+	
 	% Capítulos
 	\chapter{Introdução}
-	A inteligência artificial tem evoluído significativamente nas últimas décadas, com avanços em redes neuronais profundas sendo especialmente notáveis. O livro seminal de \citet{goodfellow2016} destaca como o deep learning transformou o campo, permitindo o desenvolvimento de modelos complexos para problemas de visão computacional, linguagem natural e mais. Além disso, \citet{taylor2015} enfatiza que a simplicidade de certas abordagens pode ser essencial para iniciantes entenderem os fundamentos da aprendizagem automática. 
+	\section{Definição e Contexto}
+	A inteligência artificial tem evoluído significativamente nas últimas décadas, com avanços em redes neuronais profundas sendo especialmente notáveis. O livro seminal de \citet{goodfellow2016} destaca como o deep learning transformou o campo.
 	
-	Os desafios associados à implementação e otimização de redes neuronais foram explorados em várias pesquisas. Por exemplo, \citet{rao2019} argumenta que os principais desafios incluem o ajuste de hiperparâmetros e a escalabilidade dos modelos.
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=0.5\textwidth]{example-image-a}
+		\caption{Esquema de aprendizado em redes neurais.}
+		\label{fig:esquema-aprendizado}
+	\end{figure}
+	
+	\section{Desafios Atuais}
+	Os desafios associados à implementação de redes neuronais foram explorados em várias pesquisas. Por exemplo, \citet{rao2019} argumenta que os principais desafios incluem o ajuste de hiperparâmetros e a escalabilidade.
+	
+	\begin{table}[ht]
+		\centering
+		\begin{tabular}{|l|l|l|}
+			\hline
+			\textbf{Parâmetro} & \textbf{Descrição} & \textbf{Valor} \\ \hline
+			Taxa de Aprendizagem & Controla o ajuste do modelo & 0.001 \\ \hline
+			Número de Camadas & Define a profundidade do modelo & 4 \\ \hline
+			Tamanho do Batch & Exemplos por iteração & 32 \\ \hline
+		\end{tabular}
+		\caption{Parâmetros comuns em redes neurais.}
+		\label{tab:parametros-redes}
+	\end{table}
 	
 	\chapter{Revisão de Literatura}
-	A literatura recente tem investigado estratégias para otimizar redes neuronais e melhorar a eficiência dos modelos. \citet{smith2021optimization} analisaram técnicas avançadas de otimização que têm um impacto direto no desempenho de redes neuronais em tarefas críticas. Da mesma forma, \citet{brown2020} exploraram o papel da aprendizagem automática na análise preditiva, destacando a importância do machine learning para setores como saúde e finanças.
+	\section{Avanços em Otimização}
+	A literatura recente investigou estratégias para otimizar redes neuronais e melhorar a eficiência. \citet{smith2021optimization} analisaram técnicas avançadas de otimização que têm impacto no desempenho.
 	
-	Um avanço importante foi a introdução de redes convolucionais para classificação de imagens por \citet{krizhevsky2012}, que revolucionou a área com a sua abordagem baseada no conjunto de dados ImageNet. Estudos subsequentes, como os apresentados em \citet{noauthor2021}, detalham os avanços em redes recorrentes, ampliando sua aplicabilidade em processamento de séries temporais e geração de texto.
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=0.7\textwidth]{example-image-b}
+		\caption{Gráfico de convergência em redes treinadas.}
+		\label{fig:convergencia}
+	\end{figure}
 	
-	Contribuições teóricas também foram fundamentais. O livro \citet{mitpress2018} fornece uma base sólida sobre os princípios de aprendizagem profunda, enquanto \citet{wikipedia2024} oferece uma visão geral acessível das redes neuronais recorrentes.
+	\section{Aplicações de Machine Learning}
+	\citet{brown2020} exploraram o papel do aprendizado de máquina na análise preditiva, destacando sua relevância em saúde e finanças.
+	
+	\begin{table}[ht]
+		\centering
+		\begin{tabular}{|l|l|}
+			\hline
+			\textbf{Setor} & \textbf{Exemplo} \\ \hline
+			Saúde & Diagnóstico médico \\ \hline
+			Finanças & Previsão de fraudes \\ \hline
+		\end{tabular}
+		\caption{Exemplos de aplicações de machine learning.}
+		\label{tab:aplicacoes}
+	\end{table}
 	
 	\chapter{Metodologia}
-	A metodologia deste estudo foi baseada em abordagens sugeridas por \citet{smith2021optimization}, que enfatizam a utilização de técnicas otimizadas para treinar redes profundas. Além disso, os parâmetros do modelo foram ajustados com base nos princípios descritos por \citet{rao2019}, garantindo um equilíbrio entre desempenho e complexidade computacional.
+	\section{Abordagens de Treinamento}
+	A metodologia deste estudo foi baseada em \citet{smith2021optimization}, que enfatizam o uso de técnicas otimizadas para treinar redes profundas.
 	
-	O framework experimental foi inspirado nas estratégias utilizadas em \citet{krizhevsky2012}, adaptando redes convolucionais para novos conjuntos de dados. Também foram incorporadas técnicas de análise preditiva baseadas nas metodologias descritas por \citet{brown2020}.
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[width=1.0\textwidth]{example-image-c}
+		\caption{Diagrama detalhado de uma rede convolucional.}
+		\label{fig:rede-convolucional}
+	\end{figure}
 	
 	\chapter{Resultados}
-	Os resultados obtidos corroboram os achados de \citet{smith2021optimization}, demonstrando melhorias significativas na eficiência do modelo ao adotar técnicas avançadas de otimização. Adicionalmente, os modelos baseados em redes convolucionais apresentaram precisão semelhante às descritas por \citet{krizhevsky2012}, validando sua robustez em tarefas de classificação de imagens.
+	\section{Melhorias Observadas}
+	Os resultados corroboram os achados de \citet{smith2021optimization}, demonstrando melhorias significativas no desempenho.
 	
-	Curiosamente, as limitações de redes recorrentes, como discutido por \citet{noauthor2021}, foram observadas em tarefas de processamento sequencial, reforçando a necessidade de arquiteturas híbridas para superar esses desafios.
-	
-	\chapter{Conclusão}
-	Com base nas evidências apresentadas, pode-se concluir que a adoção de técnicas modernas de otimização e arquiteturas avançadas de redes neuronais desempenha um papel crucial no avanço da inteligência artificial. Conforme discutido em \citet{goodfellow2016}, o futuro do deep learning depende da contínua integração de métodos teóricos e práticos.
-	
-	Além disso, as contribuições de \citet{rao2019} e \citet{brown2020} destacam que uma abordagem multidisciplinar é essencial para enfrentar os desafios associados à escalabilidade e aplicação prática dos modelos. Este trabalho, portanto, reforça a importância da pesquisa colaborativa e interdisciplinar no progresso da inteligência artificial.
+	% Desativar cabeçalho personalizado antes das referências
+	\clearpage
+	\pagestyle{plain}
 	
 	% Referências Bibliográficas
 	\addcontentsline{toc}{chapter}{Referências Bibliográficas}

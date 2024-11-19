@@ -39,6 +39,8 @@
 \renewcommand{\cftsubsecfont}{\itshape}
 \renewcommand{\cftchappagefont}{\bfseries}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % Ativa os pontos ligando títulos às páginas
+\renewcommand{\cftchapdotsep}{\cftdotsep} % Ativar pontos nos capítulos
+\renewcommand{\cftchapleader}{\cftdotfill{\cftchapdotsep}} % Ativar líderes de pontos nos capítulos
 
 % Configuração de Cores
 \definecolor{barraazul}{RGB}{0, 51, 153}
@@ -46,7 +48,23 @@
 % Começar numeração romana
 \pagenumbering{roman}
 
+% Configuração do cabeçalho
+\usepackage{fancyhdr}
+\fancypagestyle{conteudo}{
+	\fancyhf{} % Limpa cabeçalhos e rodapés
+	\fancyhead[R]{\small \nouppercase{\leftmark}} % Título do capítulo no canto superior direito
+	\renewcommand{\headrulewidth}{0pt} % Remove a linha no cabeçalho
+}
+
+% Ajuste das margens superiores
+\geometry{top=2cm, bottom=2.5cm, left=2.5cm, right=2.5cm}
+
 % Configuração de Títulos e Subtítulos
 \titleformat{\chapter}[block]{\normalfont\bfseries\fontsize{14pt}{16pt}\selectfont}{\thechapter.}{1em}{}
 \titleformat{\section}[block]{\normalfont\bfseries\fontsize{12pt}{14pt}\selectfont}{\thesection}{1em}{}
 
+% Reduzir espaçamento entre linhas dos índices
+\usepackage{etoolbox}
+\patchcmd{\tableofcontents}{\@starttoc{toc}}{\@starttoc{toc}\setlength{\parskip}{-5pt}}{}{}
+\patchcmd{\listoffigures}{\@starttoc{lof}}{\@starttoc{lof}\setlength{\parskip}{-5pt}}{}{}
+\patchcmd{\listoftables}{\@starttoc{lot}}{\@starttoc{lot}\setlength{\parskip}{-5pt}}{}{}

@@ -4,9 +4,14 @@
 \contentsline {chapter}{Abstract}{iv}{chapter*.3}%
 \contentsline {chapter}{Lista de Abreviaturas e Siglas}{viii}{chapter*.4}%
 \contentsline {chapter}{\numberline {1}Introdução}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Definição e Contexto}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Desafios Atuais}{1}{section.1.2}%
 \contentsline {chapter}{\numberline {2}Revisão de Literatura}{2}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Avanços em Otimização}{2}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Aplicações de Machine Learning}{2}{section.2.2}%
 \contentsline {chapter}{\numberline {3}Metodologia}{3}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Abordagens de Treinamento}{3}{section.3.1}%
 \contentsline {chapter}{\numberline {4}Resultados}{4}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Conclusão}{5}{chapter.5}%
-\contentsline {chapter}{Referências Bibliográficas}{5}{chapter.5}%
-\contentsline {chapter}{\numberline {A}Anexo A}{7}{appendix.A}%
+\contentsline {section}{\numberline {4.1}Melhorias Observadas}{4}{section.4.1}%
+\contentsline {chapter}{Referências Bibliográficas}{5}{section.4.1}%
+\contentsline {chapter}{\numberline {A}Anexo A}{6}{appendix.A}%
