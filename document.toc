@@ -1,0 +1,11 @@
+\babel@toc {portuguese}{}\relax 
+\contentsline {section}{Resumo}{i}{section*.1}%
+\contentsline {section}{Abstract}{i}{section*.2}%
+\contentsline {section}{Palavras-chave}{i}{section*.3}%
+\contentsline {section}{Introdução}{1}{section*.5}%
+\contentsline {section}{Desenvolvimento}{1}{section*.6}%
+\contentsline {subsection}{Argumentação Crítica}{1}{section*.7}%
+\contentsline {subsection}{Contrapontos}{1}{section*.8}%
+\contentsline {section}{Propostas e Soluções}{1}{section*.9}%
+\contentsline {section}{Conclusão}{2}{section*.10}%
+\contentsline {section}{Referências}{2}{section*.11}%

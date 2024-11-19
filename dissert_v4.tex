@@ -1,0 +1,239 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{longtable}
+\usepackage{lipsum}
+\usepackage{enumitem}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{ragged2e}
+\usepackage[natbibapa]{apacite} % Estilo APA para o natbib
+\usepackage{url}
+
+% Configuração da Margem e Espaçamento
+\geometry{a4paper, margin=2.5cm}
+\setstretch{1.5}
+
+% Configuração de Fontes
+\setmainfont{Times New Roman}
+
+% Configuração de Títulos
+\titleformat{\chapter}[block]{\normalfont\huge\bfseries}{\thechapter.}{20pt}{\centering}
+\titleformat{\section}[block]{\normalfont\Large\bfseries}{\thesection}{1em}{}
+
+% Configuração do Índice
+\addto\captionsportuguese{%
+	\renewcommand{\contentsname}{Índice} % Substitui "Conteúdo" por "Índice"
+}
+\renewcommand{\cftchapfont}{\bfseries}
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftsubsecfont}{\itshape}
+\renewcommand{\cftchappagefont}{\bfseries}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % Ativa os pontos ligando títulos às páginas
+
+% Configuração de Cores
+\definecolor{barraazul}{RGB}{0, 51, 153}
+
+% Começar numeração romana
+\pagenumbering{roman}
+
+\begin{document}
+	
+	% Capa
+	\begin{titlepage}
+		\begin{flushleft}
+			\includegraphics[width=0.5\textwidth]{iscte.png}\\[1cm]
+		\end{flushleft}
+		\noindent
+		\textcolor{barraazul}{\rule{\textwidth}{1mm}} % Barra azul
+		\\[0.5cm]
+		{\Huge \textbf{\centering Desenvolvimento de modelos preditivos com base em RNN}}\\[1.5cm]
+		\noindent
+		\textbf{Luís Ricardo Silva Inácio}\\
+		\textbf{Número de Aluno: 129074}\\[2cm]
+		\textbf{Mestrado em Inteligência Artificial}\\[1.5cm]
+		\textbf{Orientador: Tozé Brito, Phd}\\
+		\textbf{Coorientador: (se aplicável)}\\[3cm]
+		\textbf{Outubro, 2024}
+	\end{titlepage}
+	
+	% Página em Branco
+	\newpage
+	\thispagestyle{empty}
+	\mbox{}
+	\newpage
+	
+	% Contracapa
+	\begin{titlepage}
+		\begin{flushleft}
+			\includegraphics[width=0.5\textwidth]{ista.png}\\[1cm]
+		\end{flushleft}
+		\noindent
+		\textcolor{barraazul}{\rule{\textwidth}{1mm}} % Barra azul
+		\\[0.5cm]
+		{\Large \textbf{\centering Departamento de Ciências e Tecnologias da Informação}}\\[1cm]
+		{\Huge \textbf{\centering Desenvolvimento de modelos preditivos com base em RNN}}\\[1.5cm]
+		\noindent
+		\textbf{Luís Ricardo Silva Inácio}\\
+		\textbf{Número de Aluno: 129074}\\[2cm]
+		\textbf{Orientador: Tozé Brito, Phd}\\
+		\textbf{Coorientador: (se aplicável)}\\[3cm]
+		\textbf{Outubro, 2024}
+	\end{titlepage}
+	
+	% Página de Copyright
+	\newpage
+	\thispagestyle{empty}
+	\noindent % Evita indentação na primeira linha
+	{\footnotesize % Tamanho menor de texto (menor que \small)
+		\textbf{Direitos de cópia ou Copyright} \\ % Título
+		\textcopyright
+		Copyright: Luís Ricardo Silva Inácio \\[-0.5cm] % Reduz o espaço após o autor
+		\begin{flushleft} % Início do ambiente para alinhar à esquerda e justificar
+			\renewcommand{\baselinestretch}{1}\selectfont % Define o espaçamento entre linhas
+			\justify % Garante a justificação do texto
+			O Iscte - Instituto Universitário de Lisboa tem o direito, perpétuo e sem limites geográficos, de arquivar e publicitar este trabalho através de exemplares impressos reproduzidos em papel ou de forma digital, ou por qualquer outro meio conhecido ou que venha a ser inventado, de o divulgar através de repositórios científicos e de admitir a sua cópia e distribuição com objetivos educacionais ou de investigação, não comerciais, desde que seja dado crédito ao autor e editor.
+		\end{flushleft}
+	}
+	\newpage
+	
+	% Página de Agradecimentos
+	\chapter*{Agradecimentos}
+	\addcontentsline{toc}{chapter}{Agradecimentos}
+	Gostaria de expressar a minha gratidão a todas as pessoas que me apoiaram durante a realização deste trabalho...
+	
+	% Resumo
+	\newpage
+	\chapter*{Resumo}
+	\addcontentsline{toc}{chapter}{Resumo}
+	Texto do resumo em português. \\[1em]
+	\textbf{Palavras-chave:} palavra-chave1, palavra-chave2, palavra-chave3.
+	\newpage
+	
+	% Abstract
+	\chapter*{Abstract}
+	\addcontentsline{toc}{chapter}{Abstract}
+	Texto do resumo em inglês. \\[1em]
+	\textbf{Keywords:} keyword1, keyword2, keyword3.
+	\newpage
+	
+	% Índices
+	\tableofcontents
+	\newpage
+	\listoffigures
+	\newpage
+	\listoftables
+	\newpage
+	
+	% Lista de Abreviaturas e Siglas
+	\chapter*{Lista de Abreviaturas e Siglas}
+	\addcontentsline{toc}{chapter}{Lista de Abreviaturas e Siglas}
+	\begin{longtable}{p{3cm} p{10cm}}
+		\textbf{Sigla} & \textbf{Descrição} \\
+		\hline
+		API & Application Programming Interface \\
+		BI & Business Intelligence \\ 
+		KPI & Key Performance Indicator \\
+	\end{longtable}
+	
+	% Começar numeração árabe
+	\newpage
+	\pagenumbering{arabic}
+	
+	% Introdução
+	\chapter{Introdução}
+	Texto fictício de introdução. 
+	\lipsum[1-2]
+	
+	% Capítulos Seguintes
+	\chapter{Revisão de Literatura}
+	Texto fictício para revisão de literatura. 
+	\lipsum[3-4]
+	
+	% Mock de Figuras
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.5\textwidth]{example-image} % Use uma imagem real para substituir
+		\caption{Exemplo de Figura 1}
+		\label{fig:exemplo1}
+	\end{figure}
+	
+	\chapter{Metodologia}
+	Texto fictício para metodologia. 
+	\lipsum[5-6]
+	
+	% Mock de Tabelas
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|c|c|c|}
+			\hline
+			Coluna 1 & Coluna 2 & Coluna 3 \\
+			\hline
+			Dado 1 & Dado 2 & Dado 3 \\
+			\hline
+		\end{tabular}
+		\caption{Exemplo de Tabela 1}
+		\label{tab:exemplo1}
+	\end{table}
+	
+	\chapter{Resultados}
+	Texto fictício para resultados. 
+	\lipsum[7-8]
+	
+	\chapter{Conclusão}
+	Texto fictício para conclusão. 
+	\lipsum[9]
+	
+	% Referências
+	\chapter*{Referências Bibliográficas}
+	\addcontentsline{toc}{chapter}{Referências}
+	
+	\begin{thebibliography}{}
+		
+		\bibitem{goodfellow2016} 
+		Goodfellow, I., Bengio, Y., e Courville, A. (2016). *Deep Learning*. MIT Press.
+		
+		\bibitem{smith2021optimization} 
+		Smith, J., Johnson, R., e Taylor, K. (2021). Optimization techniques for neural networks. *Journal of Machine Learning Research, 22*(3), 1–20. https://doi.org/10.1234/jmlr.v22i3.5678
+		
+		\bibitem{krizhevsky2012} 
+		Krizhevsky, A., Sutskever, I., e Hinton, G. E. (2012). Imagenet classification with deep convolutional neural networks. *Advances in Neural Information Processing Systems, 25*, 1097–1105.
+		
+		\bibitem{brown2020} 
+		Brown, P. (2020). Machine learning for predictive analytics. *Data Science Journal, 12*(4), 56–75.
+		
+		\bibitem{noauthor2021} 
+		No Author. (2021). Recent advances in RNNs. *Neural Networks Review, 5*(1), 34–50.
+		
+		\bibitem{johnson1999as} 
+		Johnson, L. (1999). As cited in Smith et al. (2021). *Introduction to AI*.
+		
+		\bibitem{wikipedia2024} 
+		Wikipedia contributors. (2024). Recurrent neural networks. In *Wikipedia*. \url{https://en.wikipedia.org/wiki/Recurrent_neural_network}
+		
+		\bibitem{mitpress2018} 
+		MIT Press. (2018). *Foundations of Deep Learning*. MIT Press.
+		
+		\bibitem{rao2019} 
+		Rao, K. (2019). Challenges in neural networks. *AI Research Journal, 10*(2), 98–110.
+		
+		\bibitem{taylor2015} 
+		Taylor, K. (2015). Simplifying neural networks for beginners. *Journal of AI, 8*(3), 25–35.
+		
+	\end{thebibliography}
+
+	
+	% Apêndices
+	\appendix
+	\chapter{Anexo A}
+	Texto fictício para apêndice. 
+	\lipsum[10]
+	
+\end{document}

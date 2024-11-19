@@ -1,0 +1,181 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{longtable}
+\usepackage{lipsum}
+\usepackage{enumitem}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{ragged2e}
+\usepackage[natbibapa]{apacite} % Estilo APA para o natbib
+\usepackage{natbib} % Necessário para \citep e \citet
+\usepackage{url}
+
+% Configuração da Margem e Espaçamento
+\geometry{a4paper, margin=2.5cm}
+\setstretch{1.5}
+
+% Configuração de Fontes
+\setmainfont{Times New Roman}
+
+% Configuração de Títulos
+\titleformat{\chapter}[block]{\normalfont\huge\bfseries}{\thechapter.}{20pt}{\centering}
+\titleformat{\section}[block]{\normalfont\Large\bfseries}{\thesection}{1em}{}
+
+% Configuração do Índice
+\renewcommand{\contentsname}{Índice} % Define o título como "Índice"
+\renewcommand{\cftchapfont}{\bfseries}
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftsubsecfont}{\itshape}
+\renewcommand{\cftchappagefont}{\bfseries}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % Ativa os pontos ligando títulos às páginas
+
+% Configuração de Cores
+\definecolor{barraazul}{RGB}{0, 51, 153}
+
+% Começar numeração romana
+\pagenumbering{roman}
+
+\begin{document}
+	
+	% Capa
+	\begin{titlepage}
+		\begin{flushleft}
+			\includegraphics[width=0.5\textwidth]{iscte.png}\\[1cm]
+		\end{flushleft}
+		\noindent
+		\textcolor{barraazul}{\rule{\textwidth}{1mm}} % Barra azul
+		\\[0.5cm]
+		{\Huge \textbf{\centering Desenvolvimento de modelos preditivos com base em RNN}}\\[1.5cm]
+		\noindent
+		\textbf{Luís Ricardo Silva Inácio}\\
+		\textbf{Número de Aluno: 129074}\\[2cm]
+		\textbf{Mestrado em Inteligência Artificial}\\[1.5cm]
+		\textbf{Orientador: Tozé Brito, Phd}\\
+		\textbf{Coorientador: (se aplicável)}\\[3cm]
+		\textbf{Outubro, 2024}
+	\end{titlepage}
+	
+	% Página em Branco
+	\newpage
+	\thispagestyle{empty}
+	\mbox{}
+	\newpage
+	
+	% Contracapa
+	\begin{titlepage}
+		\begin{flushleft}
+			\includegraphics[width=0.5\textwidth]{ista.png}\\[1cm]
+		\end{flushleft}
+		\noindent
+		\textcolor{barraazul}{\rule{\textwidth}{1mm}} % Barra azul
+		\\[0.5cm]
+		{\Large \textbf{\centering Departamento de Ciências e Tecnologias da Informação}}\\[1cm]
+		{\Huge \textbf{\centering Desenvolvimento de modelos preditivos com base em RNN}}\\[1.5cm]
+		\noindent
+		\textbf{Luís Ricardo Silva Inácio}\\
+		\textbf{Número de Aluno: 129074}\\[2cm]
+		\textbf{Orientador: Tozé Brito, Phd}\\
+		\textbf{Coorientador: (se aplicável)}\\[3cm]
+		\textbf{Outubro, 2024}
+	\end{titlepage}
+	
+	% Página de Copyright
+	\newpage
+	\thispagestyle{empty}
+	\noindent % Evita indentação na primeira linha
+	{\footnotesize % Tamanho menor de texto (menor que \small)
+		\textbf{Direitos de cópia ou Copyright} \\ % Título
+		\textcopyright
+		Copyright: Luís Ricardo Silva Inácio \\[-0.5cm] % Reduz o espaço após o autor
+		\begin{flushleft} % Início do ambiente para alinhar à esquerda e justificar
+			\renewcommand{\baselinestretch}{1}\selectfont % Define o espaçamento entre linhas
+			\justify % Garante a justificação do texto
+			O Iscte - Instituto Universitário de Lisboa tem o direito, perpétuo e sem limites geográficos, de arquivar e publicitar este trabalho através de exemplares impressos reproduzidos em papel ou de forma digital, ou por qualquer outro meio conhecido ou que venha a ser inventado, de o divulgar através de repositórios científicos e de admitir a sua cópia e distribuição com objetivos educacionais ou de investigação, não comerciais, desde que seja dado crédito ao autor e editor.
+		\end{flushleft}
+	}
+	\newpage
+	
+	% Página de Agradecimentos
+	\chapter*{Agradecimentos}
+	\addcontentsline{toc}{chapter}{Agradecimentos}
+	Gostaria de expressar a minha gratidão a todas as pessoas que me apoiaram durante a realização deste trabalho...
+	
+	% Resumo
+	\newpage
+	\chapter*{Resumo}
+	\addcontentsline{toc}{chapter}{Resumo}
+	Texto do resumo em português. \\[1em]
+	\textbf{Palavras-chave:} Redes Neurais Recorrentes, Modelos Preditivos, Machine Learning.
+	\newpage
+	
+	% Abstract
+	\chapter*{Abstract}
+	\addcontentsline{toc}{chapter}{Abstract}
+	Texto do resumo em inglês. \\[1em]
+	\textbf{Keywords:} Recurrent Neural Networks, Predictive Models, Machine Learning.
+	\newpage
+	
+	% Índices
+	\tableofcontents
+	\newpage
+	\listoffigures
+	\newpage
+	\listoftables
+	\newpage
+	
+	% Lista de Abreviaturas e Siglas
+	\chapter*{Lista de Abreviaturas e Siglas}
+	\addcontentsline{toc}{chapter}{Lista de Abreviaturas e Siglas}
+	\begin{longtable}{p{3cm} p{10cm}}
+		\textbf{Sigla} & \textbf{Descrição} \\
+		\hline
+		RNN & Recurrent Neural Network \\
+		AI & Artificial Intelligence \\
+		ML & Machine Learning \\
+	\end{longtable}
+	
+	% Começar numeração árabe
+	\newpage
+	\pagenumbering{arabic}
+	
+	% Introdução
+	\chapter{Introdução}
+	A importância das Redes Neurais Recorrentes (RNNs) tem sido amplamente discutida na literatura \citep{goodfellow2016}. Este estudo tem como objetivo principal explorar...
+	
+	% Revisão de Literatura
+	\chapter{Revisão de Literatura}
+	A abordagem metodológica sugerida por Smith et al. (2021) indica que os modelos de redes neurais podem ser otimizados através de técnicas específicas \citep{smith2021optimization}. Além disso, a aplicação de redes convolucionais apresenta potencialidades adicionais \citep{krizhevsky2012}.
+	
+	% Metodologia
+	\chapter{Metodologia}
+	Para validar os modelos propostos, utilizou-se a base de dados descrita em estudos anteriores \citep{brown2020}. A abordagem experimental foi estruturada com base nas diretrizes de Goodfellow et al. \citep{goodfellow2016}.
+	
+	% Resultados
+	\chapter{Resultados}
+	Os resultados obtidos refletem a eficácia do modelo preditivo \citep{noauthor2021}, com um incremento significativo na precisão, conforme reportado na literatura secundária \citep{johnson1999as}.
+	
+	% Conclusão
+	\chapter{Conclusão}
+	O trabalho realizado destaca as vantagens das RNNs para cenários preditivos. Estudos futuros poderão focar-se em desafios apontados por Brown (2020) \citep{brown2020}.
+	
+	% Referências
+	\chapter*{Referências}
+	\addcontentsline{toc}{chapter}{Referências}
+	\bibliographystyle{apacite}
+	\bibliography{referencias}
+	
+	% Apêndices
+	\appendix
+	\chapter{Apêndice A}
+	Texto fictício para apêndice. 
+	\lipsum[10]
+	
+\end{document}

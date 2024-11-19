@@ -1,0 +1,218 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Brown%
+}{%
+Brown%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+brown2020}
+\APACinsertmetastar {%
+brown2020}%
+\begin{APACrefauthors}%
+Brown, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Machine learning for predictive analytics} {Machine
+  learning for predictive analytics}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Data Science Journal}{12}{4}{56--75}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+contributors%
+}{%
+contributors%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+wikipedia2024}
+\APACinsertmetastar {%
+wikipedia2024}%
+\begin{APACrefauthors}%
+contributors, W.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+\APACrefbtitle {Recurrent neural networks.} {Recurrent neural networks.}
+\newblock
+\APACrefnote{In Wikipedia. Retrieved from
+  https://en.wikipedia.org/wiki/Recurrent\_neural\_network}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Goodfellow%
+, Bengio%
+\BCBL {}\ \BBA {} Courville%
+}{%
+Goodfellow%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+goodfellow2016}
+\APACinsertmetastar {%
+goodfellow2016}%
+\begin{APACrefauthors}%
+Goodfellow, I.%
+, Bengio, Y.%
+\BCBL {}\ \BBA {} Courville, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2016}.
+\newblock
+\APACrefbtitle {Deep Learning} {Deep learning}.
+\newblock
+\APACaddressPublisher{}{MIT Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Krizhevsky%
+, Sutskever%
+\BCBL {}\ \BBA {} Hinton%
+}{%
+Krizhevsky%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+krizhevsky2012}
+\APACinsertmetastar {%
+krizhevsky2012}%
+\begin{APACrefauthors}%
+Krizhevsky, A.%
+, Sutskever, I.%
+\BCBL {}\ \BBA {} Hinton, G\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Imagenet classification with deep convolutional neural
+  networks} {Imagenet classification with deep convolutional neural
+  networks}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Advances in Neural Information Processing Systems}
+  {Advances in neural information processing systems}\ (\BVOL~25, \BPGS\
+  1097--1105).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Press%
+}{%
+Press%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+mitpress2018}
+\APACinsertmetastar {%
+mitpress2018}%
+\begin{APACrefauthors}%
+Press, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2018}.
+\newblock
+\APACrefbtitle {Foundations of Deep Learning} {Foundations of deep learning}.
+\newblock
+\APACaddressPublisherEqAuth{}{MIT Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rao%
+}{%
+Rao%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+rao2019}
+\APACinsertmetastar {%
+rao2019}%
+\begin{APACrefauthors}%
+Rao, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Challenges in neural networks} {Challenges in neural
+  networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{AI Research Journal}{10}{2}{98--110}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+\APACciteatitle {Recent advances in RNNs}}{%
+\APACciteatitle {Recent advances in RNNs}}{%
+{\protect \APACyear {2021}}%
+}]{%
+noauthor2021}
+\APACinsertmetastar {%
+noauthor2021}%
+{\BBOQ}\APACrefatitle {Recent advances in RNNs} {Recent advances in
+  rnns}.{\BBCQ}
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+\APACjournalVolNumPages{Neural Networks Review}{5}{1}{34--50}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Smith%
+, Johnson%
+\BCBL {}\ \BBA {} Taylor%
+}{%
+Smith%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+smith2021optimization}
+\APACinsertmetastar {%
+smith2021optimization}%
+\begin{APACrefauthors}%
+Smith, J.%
+, Johnson, R.%
+\BCBL {}\ \BBA {} Taylor, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Optimization techniques for neural networks}
+  {Optimization techniques for neural networks}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Machine Learning Research}{22}{3}{1--20}.
+\newblock
+\begin{APACrefDOI} \doi{10.1234/jmlr.v22i3.5678} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Taylor%
+}{%
+Taylor%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+taylor2015}
+\APACinsertmetastar {%
+taylor2015}%
+\begin{APACrefauthors}%
+Taylor, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Simplifying neural networks for beginners} {Simplifying
+  neural networks for beginners}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of AI}{8}{3}{25--35}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

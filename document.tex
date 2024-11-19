@@ -1,0 +1,104 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{setspace} % Para espaçamento entrelinhas
+\usepackage{times} % Para Times New Roman no Overleaf
+
+% Configuração de Margens e Espaçamento
+\geometry{a4paper, margin=2.5cm}
+\setstretch{1.5} % Espaçamento de 1,5 entrelinhas
+
+\begin{document}
+	
+	% Capa
+	\begin{titlepage}
+		\centering
+		\raisebox{-0.5\height}{\includegraphics[width=0.4\textwidth]{iscte.png}}%
+		\hfill%
+		\raisebox{-0.5\height}{\includegraphics[width=0.4\textwidth]{ista.png}}\\[1cm]
+		\vspace{1cm}
+		{\LARGE \textbf{Influência da Emoção na Cognição} \par}
+		\vspace{1cm}
+		\textbf{Mestrado em Inteligência Artificial} \\
+		\vspace{2cm}
+		\textbf{Aluno: Luís Ricardo Silva Inácio} \\
+		\textbf{129074} \\
+		\vspace{1cm}
+		\textbf{Unidade Curricular: Cognição e Emoção} \\
+		\vspace{1cm}
+		\textbf{Professora: Cristiane da Anunciação Souza} \\
+		\vfill
+		\textbf{Ano Letivo: 2024/2025} \par
+		\vfill
+		\textbf{Data de Entrega: 29 de novembro de 2024} \par
+	\end{titlepage}
+	
+	% Costas da Capa (Em branco)
+	\newpage
+	\thispagestyle{empty}
+	\mbox{}
+	\newpage
+	
+	% Configuração para numeração romana
+	\pagenumbering{roman}
+	
+	% Resumo e Abstract
+	\section*{Resumo}
+	\addcontentsline{toc}{section}{Resumo}
+	Este artigo discute a influência das emoções no processo de tomada de decisão e no funcionamento das heurísticas, com uma análise crítica comparativa entre cognição humana e sistemas de inteligência artificial. Além disso, aborda soluções inovadoras para a integração de aspectos emocionais na tecnologia.
+	
+	\section*{Abstract}
+	\addcontentsline{toc}{section}{Abstract}
+	This paper discusses the influence of emotions on decision-making processes and heuristics, providing a critical comparative analysis between human cognition and artificial intelligence systems. Furthermore, it addresses innovative solutions for integrating emotional aspects into technology.
+	
+	\section*{Palavras-chave}
+	\addcontentsline{toc}{section}{Palavras-chave}
+	Emoções, Tomada de Decisão, Heurísticas, Inteligência Artificial, Cognição.
+	
+	% Índice
+	\tableofcontents
+	\newpage
+	
+	% Configuração para numeração arábica
+	\pagenumbering{arabic}
+	
+	% Introdução
+	\section*{Introdução}
+	\addcontentsline{toc}{section}{Introdução}
+	A tomada de decisão é uma atividade central da cognição humana, frequentemente mediada por emoções e atalhos cognitivos conhecidos como heurísticas. Este artigo explora como as emoções influenciam positivamente e negativamente esses processos, abordando as diferenças entre a cognição humana e as simulações realizadas por sistemas de inteligência artificial (IA). O objetivo é propor uma visão crítica e soluções inovadoras para integrar emoções em sistemas de IA, demonstrando a relevância prática e acadêmica do tema.
+	
+	% Desenvolvimento
+	\section*{Desenvolvimento}
+	\addcontentsline{toc}{section}{Desenvolvimento}
+	\subsection*{Argumentação Crítica}
+	\addcontentsline{toc}{subsection}{Argumentação Crítica}
+	As heurísticas, como a de disponibilidade ou a de ancoragem, ajudam os humanos a tomarem decisões rápidas e econômicas. No entanto, essas decisões podem ser enviesadas, especialmente sob influência emocional. Estudos mostram que emoções como medo ou felicidade podem intensificar vieses cognitivos, enquanto sistemas de IA, por sua vez, enfrentam desafios na simulação dessas complexidades emocionais.
+	
+	\subsection*{Contrapontos}
+	\addcontentsline{toc}{subsection}{Contrapontos}
+	Embora a IA tenha avançado na aplicação de heurísticas programadas, falta-lhe a flexibilidade adaptativa da cognição humana. Por outro lado, argumenta-se que uma abordagem puramente algorítmica pode evitar certos vieses emocionais prejudiciais presentes na tomada de decisão humana.
+	
+	% Propostas e Soluções
+	\section*{Propostas e Soluções}
+	\addcontentsline{toc}{section}{Propostas e Soluções}
+	Uma solução inovadora é o desenvolvimento de algoritmos que simulem não apenas heurísticas, mas também os estados emocionais subjacentes. Por exemplo, sistemas baseados em aprendizado profundo poderiam incorporar parâmetros emocionais para ajustar decisões em tempo real, oferecendo maior adaptabilidade e precisão.
+	
+	% Conclusão
+	\section*{Conclusão}
+	\addcontentsline{toc}{section}{Conclusão}
+	A análise apresentada destaca a importância das emoções na cognição humana e os desafios na sua integração em sistemas de IA. Conclui-se que um equilíbrio entre heurísticas programadas e simulação emocional pode gerar avanços significativos, tanto em aplicações práticas quanto na compreensão teórica da cognição.
+	
+	% Referências
+	\section*{Referências}
+	\addcontentsline{toc}{section}{Referências}
+	\begin{itemize}
+		\item Kahneman, D., \& Tversky, A. (1974). Judgment under uncertainty: Heuristics and biases. \textit{Science}, 185(4157), 1124-1131. \url{https://doi.org/10.1126/science.185.4157.1124}
+		\item Slovic, P., Finucane, M. L., Peters, E., \& MacGregor, D. G. (2007). The affect heuristic. \textit{European Journal of Operational Research}, 177(3), 1333-1352. \url{https://doi.org/10.1016/j.ejor.2005.04.006}
+		\item Russell, S. J., \& Norvig, P. (2020). \textit{Artificial Intelligence: A Modern Approach} (4th ed.). Pearson.
+	\end{itemize}
+	
+\end{document}

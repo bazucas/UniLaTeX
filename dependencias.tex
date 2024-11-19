@@ -1,0 +1,52 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{longtable}
+\usepackage{lipsum}
+\usepackage{enumitem}
+\usepackage{fontspec}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{ragged2e}
+\usepackage[natbibapa]{apacite} % Estilo APA para o natbib
+\usepackage{url}
+\usepackage{indentfirst} % Força a indentação do primeiro parágrafo de cada seção
+\bibliographystyle{apacite} % Garante que usa o estilo correto
+
+% Configuração da Margem e Espaçamento
+\geometry{a4paper, margin=2.5cm}
+\setstretch{1.5}
+
+% Configuração de Fontes
+\setmainfont{Times New Roman}
+
+% Configuração de Títulos
+\titleformat{\chapter}[block]{\normalfont\huge\bfseries}{\thechapter.}{20pt}{\centering}
+\titleformat{\section}[block]{\normalfont\Large\bfseries}{\thesection}{1em}{}
+
+% Configuração do Índice
+\addto\captionsportuguese{%
+	\renewcommand{\contentsname}{Índice} % Substitui "Conteúdo" por "Índice"
+}
+\renewcommand{\cftchapfont}{\bfseries}
+\renewcommand{\cftsecfont}{\normalfont}
+\renewcommand{\cftsubsecfont}{\itshape}
+\renewcommand{\cftchappagefont}{\bfseries}
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % Ativa os pontos ligando títulos às páginas
+
+% Configuração de Cores
+\definecolor{barraazul}{RGB}{0, 51, 153}
+
+% Começar numeração romana
+\pagenumbering{roman}
+
+% Configuração de Títulos e Subtítulos
+\titleformat{\chapter}[block]{\normalfont\bfseries\fontsize{14pt}{16pt}\selectfont}{\thechapter.}{1em}{}
+\titleformat{\section}[block]{\normalfont\bfseries\fontsize{12pt}{14pt}\selectfont}{\thesection}{1em}{}
+
