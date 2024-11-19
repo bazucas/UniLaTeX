@@ -43,15 +43,13 @@
 {\normalfont\bfseries\fontsize{12pt}{14pt}\selectfont} % Formatação do texto (12pt de tamanho, 14pt de espaçamento entre linhas)
 {\thesection}{1em}{}
 
-% Índice e listas
-\addto\captionsportuguese{%
-	\renewcommand{\contentsname}{Índice} % Substitui "Conteúdo" por "Índice"
+% Configuração de títulos do Índice, Lista de Figuras e Lista de Tabelas
+% Redefinir os títulos manualmente para o mesmo tamanho de fonte (14pt)
+\addto\captionsportuguese{
+	\renewcommand{\contentsname}{\fontsize{14pt}{16pt}\selectfont Índice}
+	\renewcommand{\listfigurename}{\fontsize{14pt}{16pt}\selectfont Lista de Figuras}
+	\renewcommand{\listtablename}{\fontsize{14pt}{16pt}\selectfont Lista de Tabelas}
 }
-\renewcommand{\cftchapfont}{\bfseries}
-\renewcommand{\cftsecfont}{\normalfont}
-\renewcommand{\cftsubsecfont}{\itshape}
-\renewcommand{\cftchappagefont}{\bfseries}
-\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} % Ativa pontos ligando títulos às páginas
 
 % Ajuste de cabeçalhos
 \usepackage{fancyhdr}
