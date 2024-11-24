@@ -1,0 +1,221 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[style=apa, backend=biber]{biblatex}
+\addbibresource{biblio.bib} % Nome do arquivo de bibliografia
+\usepackage{csquotes} % Necessário para citações com babel
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{indentfirst} % Pacote para indentar o primeiro parágrafo
+\usepackage{newtxtext,newtxmath} % Usa fontes Times modernas
+\usepackage{xcolor} % Pacote para cores
+\usepackage{fancyhdr} % Para personalização do rodapé
+\usepackage{titlesec} % Para personalizar títulos e subtítulos
+
+% Configuração de Margens e Espaçamento
+\geometry{a4paper, margin=2.5cm}
+\setstretch{1.5}
+
+% Configuração de Tamanhos de Fonte e Espaçamento para Seções
+\titleformat{\section} % Títulos principais numerados
+{\normalfont\fontsize{14}{17}\bfseries}{\thesection}{1em}{}
+\titleformat*{\section} % Títulos principais não numerados
+{\normalfont\fontsize{14}{17}\bfseries}
+\titleformat{\subsection} % Subtítulos
+{\normalfont\fontsize{12}{15}\bfseries}{\thesubsection}{1em}{}
+
+% Ajuste de Espaçamento para Seções
+\titlespacing{\section}
+{0pt}{1.5em}{1em}
+\titlespacing*{\section}
+{0pt}{1.5em}{1em}
+\titlespacing{\subsection}
+{0pt}{1.2em}{0.8em}
+
+% Configuração de Rodapé com Numeração
+\pagestyle{fancy}
+\fancyhf{} % Limpa cabeçalho e rodapé
+\fancyfoot[R]{\thepage} % Numeração no canto inferior direito
+\renewcommand{\headrulewidth}{0pt} % Remove linha do cabeçalho
+\renewcommand{\footrulewidth}{0pt} % Remove linha do rodapé
+
+% Configuração de Cores
+\definecolor{barraazul}{RGB}{0, 51, 153}
+
+% Numeração das seções sem números iniciais adicionais
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
+
+% Redefinição do Cabeçalho da Bibliografia
+\defbibheading{bibliography}{
+	\section*{References}
+	\addcontentsline{toc}{section}{References}
+	\thispagestyle{fancy} % Garante que o rodapé seja consistente
+}
+
+% Garante que o estilo de página seja 'fancy' na bibliografia
+\AtBeginBibliography{\pagestyle{fancy}}
+
+% Ajuste para indentação de parágrafos
+\setlength{\parindent}{1.25cm}
+
+\begin{document}
+	
+	% Capa
+	\begin{titlepage}
+		\centering
+		\vspace*{-2cm} % Reduz a margem superior da página de título
+		
+		% Ajusta as imagens para remover espaçamentos internos (se houver)
+		\raisebox{-0.5\height}{\includegraphics[width=0.4\textwidth]{iscte.png}}%
+		\hfill%
+		\raisebox{-0.5\height}{\includegraphics[width=0.4\textwidth]{ista.png}}\\[0.5cm]
+		
+		\noindent
+		{\color{barraazul}\rule{\textwidth}{1mm}} % Barra azul horizontal
+		\\[1cm]
+		
+		{\LARGE \textbf{The Influence of Emotions on Decision Making and the Use of Heuristics in Emotional Artificial Intelligence} \par}
+		\vspace{1.5cm}
+		
+		{\Large \textbf{Master's in Artificial Intelligence}} \par
+		\vspace{1cm}
+		
+		{\large \textbf{Student: Luís Ricardo Silva Inácio}} \par
+		{\large \textbf{Number: 129074}} \par
+		\vspace{1cm}
+		
+		{\large \textbf{Course: Cognition and Emotion}} \par
+		\vspace{1cm}
+		
+		{\large \textbf{Professor: Phd Cristiane da Anunciação Souza}} \par
+		\vfill
+		
+		{\large \textbf{Academic Year: 2024/2025}} \par
+		\vspace{0.5cm}
+		{\large \textbf{Submission Date: November 29, 2024}} \par
+	\end{titlepage}
+	
+	
+	% Back of Cover (Blank)
+	\newpage
+	\thispagestyle{empty}
+	\mbox{}
+	\newpage
+	
+	% Configuration for Roman numbering
+	\pagenumbering{roman}
+	
+	% Abstract
+	\section*{Abstract}
+	\addcontentsline{toc}{section}{Abstract}
+	
+	This article provides a comprehensive analysis of the role of emotions in the use of heuristics and how the complexity and ambiguity of language represent challenges in creating emotional artificial intelligence (AI) systems. Initially, it discusses how emotions influence cognitive heuristics, facilitating quick decisions but also potentially leading to biases and errors. It explores the difficulties that AI systems face in interpreting human emotional language due to nuances such as sarcasm, irony, and cultural expressions. The work examines both the positive impacts of emotions on decision making and AI—such as improved human-machine interaction—and the negative impacts, including practical examples like virtual assistants and chatbots. Ethical and privacy issues are explored in depth, highlighting the risks of emotional manipulation and privacy invasion in the collection of emotional data. Finally, approaches are proposed to mitigate these risks, emphasizing the importance of explainable models, regulatory compliance, and user education. It concludes that the development of emotional AI requires an ethical and interdisciplinary approach, balancing technological advances with respect for human values.
+	
+	\vspace{4em}
+	
+	\noindent\textbf{Keywords:} \normalsize{Emotions, Cognitive Heuristics, Decision Making, Emotional Artificial Intelligence, Data Privacy, Natural Language Processing, AI Ethics.}
+	
+	\newpage
+	
+	% Configuration for Arabic numbering
+	\pagenumbering{arabic}
+	
+	% Introduction
+	\section{Introduction}
+	
+	Emotions play a fundamental role in how individuals process information and make decisions. They directly influence the use of heuristics—cognitive shortcuts that simplify decisions in complex or uncertain scenarios \parencite{kahneman1974}. Simultaneously, language, as a means of emotional expression, is inherently complex and ambiguous, representing a significant challenge for creating AI systems capable of understanding and responding to human emotions \parencite{chomsky1965}. This article explores the intersection between emotions, heuristics, and language in human cognition and discusses the technical, ethical, and privacy implications in creating emotional AI systems. Additionally, it proposes approaches to mitigate associated risks and promote the development of emotionally intelligent and ethical AI.
+	
+	\section{The Role of Emotions in Heuristics and the Complexity of Language in Emotional AI}
+	
+	\subsection{Heuristics, Emotions, and Language: A Theoretical Introduction}
+	
+	\textcite{kahneman1974} defined heuristics as mechanisms that allow individuals to deal with problems efficiently, using a limited amount of cognitive resources. These strategies are particularly useful in situations where time or available information is scarce. However, heuristics are not infallible and can lead to errors or cognitive biases. Emotions directly influence the use of heuristics, functioning as shortcuts that can help or hinder decisions, depending on the context \parencite{slovic2007}.
+	
+	Language is the medium through which emotions are often expressed and interpreted. As described by \textcite{chomsky1965}, human language is complex and allows for an infinite variety of expressions. This complexity presents significant challenges for AI, which needs to correctly interpret cultural, contextual, and emotional nuances to understand human emotions and respond appropriately. Despite advances in natural language processing, AI still has limitations in understanding and replicating these subtleties, which can create gaps and misunderstandings in emotional interpretation \parencite{russell2020}.
+	
+	\textcite{gigerenzer2009} argue that heuristics have evolved to enable humans to deal effectively with uncertainty. However, when these heuristics are applied in AI systems without careful consideration, they can introduce biases and systematic errors. AI, by using heuristics to save computational resources, may end up perpetuating or amplifying prejudices present in the training data \parencite{bechara2000}. For example, recommendation algorithms may favor content that reinforces stereotypes if not properly calibrated.
+	
+	\subsection{Positive Impacts of Emotions on the Use of Heuristics and Emotional AI}
+	
+	Emotions can facilitate quick and efficient decisions through heuristics. \textcite{isen2001} highlight that positive emotional states, such as happiness, can enhance creativity and cognitive flexibility. Happy individuals tend to adopt a more global approach, resulting in the application of adaptive heuristics in complex contexts. In work environments, managers with positive emotional states are more likely to make innovative decisions and solve problems effectively.
+	
+	In AI systems, understanding and incorporating emotional states can improve human-machine interaction, making it more natural and effective. Virtual assistants that recognize and respond to emotions provide more satisfying user experiences \parencite{picard1997}. For example, a system that detects user frustration can adjust its approach to provide assistance more empathetically. Studies show that such systems increase user satisfaction and efficiency in customer service.
+	
+	Furthermore, the affect heuristic allows emotions to signal quick decisions in high-risk situations \parencite{slovic2007}. In AI, models that recognize and adequately respond to emotional signals can optimize human interactions in critical contexts, such as healthcare. \textcite{miner2016} demonstrate that mental health chatbots that identify signs of depression or anxiety can refer the user to qualified professionals, improving health outcomes and providing immediate support.
+	
+	\subsection{Challenges in Interpreting Emotional Language by AI}
+	
+	The ambiguity and complexity of emotional language represent significant obstacles for emotional AI. Phrases like “I'm fine” can vary in meaning from sincerity to sarcasm, depending on tone, intonation, and context \parencite{pessoa2008}. Current natural language processing models, such as BERT and GPT, although advanced in text interpretation, still face difficulties in understanding implicit emotional nuances \parencite{russell2020}.
+	
+	AI often interprets language literally, failing to capture sarcasm, irony, or humor. \textcite{beukeboom2006} show that emotional states directly influence how people choose words and structure sentences, making automatic interpretation even more challenging. For example, an ironic message may be erroneously interpreted as literal, leading to inappropriate responses.
+	
+	Moreover, the reliance on standardized corpora to train models raises concerns about representativeness and cultural biases. \textcite{gigerenzer2009} highlight that such biases are not just technical problems but also ethical risks that can lead to inadequate interpretations and inappropriate responses in AI systems. Idiomatic expressions or slang specific to a culture may be misinterpreted by systems trained on data from another culture, resulting in misunderstandings or offensive responses.
+	
+	\subsection{Negative Impacts of Emotions and Ambiguous Language on AI and Decision Making}
+	
+	While emotions can facilitate decisions, they can also introduce significant vulnerabilities. Intense emotions, such as anger or anxiety, can distort judgments, leading to biased or irrational decisions \parencite{bechara2000}. In situations of high stress, individuals may resort to less effective heuristics, resulting in suboptimal choices. For example, an investor influenced by fear may sell stocks precipitously, ignoring rational analyses.
+	
+	In AI, systems that attempt to simulate or interpret emotions face the challenge of not replicating these biases. \textcite{russell2020} warn that models that mimic human emotional heuristics may inadvertently incorporate cultural or social biases, compromising the reliability and ethics of automated decisions. For example, a chatbot that learns from unfiltered human interactions may adopt discriminatory or offensive language. The case of Microsoft's Tay chatbot, which quickly began emitting inappropriate statements after interacting with online users, illustrates this risk \parencite{neff2016}.
+	
+	Ambiguous language exacerbates these challenges. AI systems may misinterpret sarcasm, irony, or humor, resulting in inappropriate or even harmful responses. A sentiment analysis may erroneously classify a sarcastic critique as positive, compromising the system's effectiveness in contexts such as content moderation or customer feedback analysis \parencite{slovic2007}. This misinterpretation can lead to business decisions based on inaccurate data, affecting business strategies and customer satisfaction.
+	
+	\subsection{Ethical and Privacy Implications in Creating Emotional AI}
+	
+	The development of emotional AI systems raises significant ethical issues. Emotional manipulation is a central concern; systems that monitor emotions can exploit user vulnerabilities, especially in commercial contexts, influencing purchasing decisions and violating consumer autonomy \parencite{pessoa2008}. For example, personalized ads that exploit an individual's emotional state may lead to impulsive consumption behaviors, negatively affecting the consumer's financial health and well-being.
+	
+	Furthermore, the collection of sensitive emotional data, such as voice recordings, speech patterns, and facial expressions, raises privacy concerns. \textcite{loewenstein2001} warn that collecting such data creates inherent risks of privacy invasion, especially if adequate security and anonymization measures are not implemented. Incidents of data breaches in large companies have shown how personal information can be compromised \parencite{solove2013}. There is a danger that such data may be used for surveillance, discrimination, or other malicious purposes.
+	
+	Additionally, the ethical dilemma of consent emerges prominently. Users may not be fully aware of the extent to which their emotional data is being collected and used \parencite{solove2013}. The opaque nature of many AI systems makes it difficult for individuals to make informed decisions about their data. This lack of transparency can undermine trust and lead to resistance against the adoption of such technologies.
+	
+	The lack of transparency in emotional AI systems, which often operate as black boxes, hinders understanding of how decisions are made, compromising user trust \parencite{russell2020}. Without a clear explanation of how a system interprets emotions and makes decisions, it is difficult to identify and correct possible biases or errors. This can result in harm to users, who may be affected by unfair or inadequate decisions.
+	
+	\subsection{Approaches to Mitigate Ethical and Privacy Risks}
+	
+	To address these challenges, it is essential to develop explainable models that allow users to understand how emotions are detected and influence the system's decisions \parencite{russell2020}. Explainability increases user trust and allows identification of possible biases or system failures. Techniques such as white-box models or the use of interpretable algorithms can be adopted.
+	
+	Rigorous application of regulations such as the General Data Protection Regulation (GDPR) is fundamental to protect user privacy. The GDPR establishes clear guidelines on the collection, processing, and storage of personal data, including sensitive emotional data. Companies and developers must ensure compliance with these regulations to avoid abuses and legal sanctions.
+	
+	Implementing ethical guidelines and industry standards can also promote responsible development. Organizations like the IEEE have proposed frameworks for ethically aligned design in AI, emphasizing respect for human rights, accountability, and transparency \parencite{ieee2019}. Adopting such standards can guide developers in making ethically sound decisions throughout the design and deployment process.
+	
+	Techniques such as federated learning, which allow training models without transferring sensitive data to central servers, show potential to reduce privacy risks \parencite{pessoa2008}. In this approach, data remains on the user's device, and only model parameters are shared, minimizing exposure of personal information. Additionally, the use of encryption and data anonymization can reinforce security.
+	
+	Furthermore, educating users about the risks associated with sharing emotional data and promoting controls over how their information is used are crucial to empower individuals and foster safer interactions \parencite{slovic2007}. Awareness campaigns and clear privacy policies can help establish realistic expectations and promote a culture of transparency.
+	
+	\subsection{Ethical Integration of Emotional Heuristics in AI}
+	
+	\textcite{gigerenzer2009} suggest that human heuristics have evolved to deal with uncertainties, a challenge that machines face less efficiently. Integrating emotional heuristics into AI systems presents both opportunities and risks. On one hand, it can make systems more adaptive and responsive to human needs; on the other, it can introduce biases and ethical issues.
+	
+	For AI systems to benefit from emotional heuristics without inheriting their biases, a multidisciplinary approach is necessary. Collaborations between psychologists, ethicists, and computer scientists can help design systems that are both effective and ethically sound \parencite{russell2020}. This approach ensures that the nuances of human emotion are carefully considered and that the AI's decision-making processes align with societal values.
+	
+	To integrate emotional heuristics ethically, it is necessary to:
+	
+	\begin{itemize}
+		\item \textbf{Algorithm Transparency}: Develop algorithms whose decision-making processes can be audited and understood by experts and, ideally, by the users themselves.
+		\item \textbf{Diversity in Training Data}: Use datasets that represent the cultural and emotional diversity of the population, reducing biases associated with specific groups.
+		\item \textbf{Human Oversight}: Maintain a level of human supervision in critical decisions, especially those that significantly affect individuals' lives.
+		\item \textbf{Embedded Ethics}: Include ethical principles in system design, aligned with international norms and regulations.
+		\item \textbf{Continuous Feedback}: Implement mechanisms that allow users to provide feedback on AI decisions, facilitating continuous system improvements.
+		\item \textbf{Ongoing Evaluation}: Conduct periodic assessments of systems to identify and correct potential biases or failures, ensuring AI remains aligned with established ethical values.
+	\end{itemize}
+	
+	\section{Conclusion}
+	
+	Emotions and language play crucial roles in human cognition and decision-making through heuristics. While they can facilitate quick and adaptive decisions, they also introduce significant challenges for creating emotional AI systems. The complexity and ambiguity of human language represent substantial technical obstacles, while ethical and privacy issues require careful attention and robust solutions.
+	
+	To maximize benefits and mitigate risks, it is essential that developers, regulators, and users collaborate in formulating ethical and transparent solutions. As emphasized by \textcite{russell2020}, the future of emotional AI depends on its ability to respect human rights and promote more empathetic and safe interactions. By balancing emotion, cognition, and technology, it is possible to advance toward AI systems that not only understand human emotions but also operate ethically and responsibly.
+	
+	Progress in this area requires a continuous commitment to interdisciplinary research involving psychology, linguistics, computer science, and ethics. Only through a holistic approach can we develop emotional AI systems that benefit society as a whole, respecting the dignity and privacy of individuals. Responsible innovation in this area has the potential to positively transform how we interact with technology, promoting a future where artificial intelligence is truly empathetic and aligned with human values.
+	
+	Ultimately, the successful integration of emotions and heuristics in AI will depend on our ability to deeply understand human nature and translate that knowledge into technological systems that reflect not only intelligence but also human wisdom and ethics.
+	
+	\newpage
+	
+	% References
+	\printbibliography
+	
+\end{document}

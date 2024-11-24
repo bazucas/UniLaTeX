@@ -1,0 +1,865 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{bechara2000}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=44deb7f9a370ae344c6ed0d946765d0b}{%
+           family={Bechara},
+           familyi={B\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e517309e9bdb0bbdb4243d29e8209d08}{%
+           family={Damasio},
+           familyi={D\bibinitperiod},
+           given={Hanna},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c7feaf9112057d7bbbaf584ea34e408}{%
+           family={Damasio},
+           familyi={D\bibinitperiod},
+           given={Antonio\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fc4176aaa3c273b3d706199bfbcfecc3}
+      \strng{fullhash}{a1d071ffcdd357ac0cd262e61058c7b2}
+      \strng{fullhashraw}{a1d071ffcdd357ac0cd262e61058c7b2}
+      \strng{bibnamehash}{a1d071ffcdd357ac0cd262e61058c7b2}
+      \strng{authorbibnamehash}{a1d071ffcdd357ac0cd262e61058c7b2}
+      \strng{authornamehash}{fc4176aaa3c273b3d706199bfbcfecc3}
+      \strng{authorfullhash}{a1d071ffcdd357ac0cd262e61058c7b2}
+      \strng{authorfullhashraw}{a1d071ffcdd357ac0cd262e61058c7b2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cerebral Cortex}
+      \field{number}{3}
+      \field{title}{Emotion, decision making and the orbitofrontal cortex}
+      \field{volume}{10}
+      \field{year}{2000}
+      \field{pages}{295\bibrangedash 307}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1093/cercor/10.3.295
+      \endverb
+    \endentry
+    \entry{beukeboom2006}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6d31a7ed958f687e87a3165650386984}{%
+           family={Beukeboom},
+           familyi={B\bibinitperiod},
+           given={Camiel\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=374157e4510b779db92edd79a1acc83c}{%
+           family={Semin},
+           familyi={S\bibinitperiod},
+           given={Gün\bibnamedelima R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ba3d5bc4398309c204aea52bc84673d4}
+      \strng{fullhash}{ba3d5bc4398309c204aea52bc84673d4}
+      \strng{fullhashraw}{ba3d5bc4398309c204aea52bc84673d4}
+      \strng{bibnamehash}{ba3d5bc4398309c204aea52bc84673d4}
+      \strng{authorbibnamehash}{ba3d5bc4398309c204aea52bc84673d4}
+      \strng{authornamehash}{ba3d5bc4398309c204aea52bc84673d4}
+      \strng{authorfullhash}{ba3d5bc4398309c204aea52bc84673d4}
+      \strng{authorfullhashraw}{ba3d5bc4398309c204aea52bc84673d4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Experimental Social Psychology}
+      \field{number}{5}
+      \field{title}{How mood turns on language}
+      \field{volume}{42}
+      \field{year}{2006}
+      \field{pages}{553\bibrangedash 566}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.jesp.2005.09.005
+      \endverb
+    \endentry
+    \entry{chomsky1965}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=28167c0b3800bc5cfb686676277005b0}{%
+           family={Chomsky},
+           familyi={C\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{fullhash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{fullhashraw}{28167c0b3800bc5cfb686676277005b0}
+      \strng{bibnamehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authorbibnamehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authornamehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authorfullhash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authorfullhashraw}{28167c0b3800bc5cfb686676277005b0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Aspects of the theory of syntax}
+      \field{year}{1965}
+    \endentry
+    \entry{gigerenzer2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b48d2c7ac3f28cdcd52b92c3c2953a61}{%
+           family={Gigerenzer},
+           familyi={G\bibinitperiod},
+           given={Gerd},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4ee24058ffe2d14df3188027e17c696}{%
+           family={Brighton},
+           familyi={B\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{71368eec16817037735ab897ec8bb50d}
+      \strng{fullhash}{71368eec16817037735ab897ec8bb50d}
+      \strng{fullhashraw}{71368eec16817037735ab897ec8bb50d}
+      \strng{bibnamehash}{71368eec16817037735ab897ec8bb50d}
+      \strng{authorbibnamehash}{71368eec16817037735ab897ec8bb50d}
+      \strng{authornamehash}{71368eec16817037735ab897ec8bb50d}
+      \strng{authorfullhash}{71368eec16817037735ab897ec8bb50d}
+      \strng{authorfullhashraw}{71368eec16817037735ab897ec8bb50d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Topics in Cognitive Science}
+      \field{number}{1}
+      \field{title}{Homo heuristicus: Why biased minds make better inferences}
+      \field{volume}{1}
+      \field{year}{2009}
+      \field{pages}{107\bibrangedash 143}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1111/j.1756-8765.2008.01006.x
+      \endverb
+    \endentry
+    \entry{isen2001}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=90851887e21c461d2ab602974251b206}{%
+           family={Isen},
+           familyi={I\bibinitperiod},
+           given={Alice\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90851887e21c461d2ab602974251b206}
+      \strng{fullhash}{90851887e21c461d2ab602974251b206}
+      \strng{fullhashraw}{90851887e21c461d2ab602974251b206}
+      \strng{bibnamehash}{90851887e21c461d2ab602974251b206}
+      \strng{authorbibnamehash}{90851887e21c461d2ab602974251b206}
+      \strng{authornamehash}{90851887e21c461d2ab602974251b206}
+      \strng{authorfullhash}{90851887e21c461d2ab602974251b206}
+      \strng{authorfullhashraw}{90851887e21c461d2ab602974251b206}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Consumer Psychology}
+      \field{number}{2}
+      \field{title}{An influence of positive affect on decision making in complex situations: Theoretical issues with practical implications}
+      \field{volume}{11}
+      \field{year}{2001}
+      \field{pages}{75\bibrangedash 85}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1207/S15327663JCP1102_01
+      \endverb
+    \endentry
+    \entry{kahneman1974}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=031d0d5f9391d970f6f089af958f701d}{%
+           family={Tversky},
+           familyi={T\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{fullhash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{fullhashraw}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{bibnamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorbibnamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authornamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorfullhash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorfullhashraw}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{4157}
+      \field{title}{Judgment under uncertainty: Heuristics and biases}
+      \field{volume}{185}
+      \field{year}{1974}
+      \field{pages}{1124\bibrangedash 1131}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1126/science.185.4157.1124
+      \endverb
+    \endentry
+    \entry{loewenstein2001}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=898ca02622955fd1ccdcf47220061ed2}{%
+           family={Loewenstein},
+           familyi={L\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86c96845d5fadba6351f48d53834d9b4}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Elke\bibnamedelima U.},
+           giveni={E\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e8c2833e35b0418f6acab1c9a9bd672}{%
+           family={Hsee},
+           familyi={H\bibinitperiod},
+           given={Christopher\bibnamedelima K.},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a08b7a302d6a3d1a35d625ab7ad39b3}{%
+           family={Welch},
+           familyi={W\bibinitperiod},
+           given={Ned},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0b1633b537bf7a1088baa1a19f9fcebf}
+      \strng{fullhash}{9345efc0547e643ef264555e6c521bf3}
+      \strng{fullhashraw}{9345efc0547e643ef264555e6c521bf3}
+      \strng{bibnamehash}{9345efc0547e643ef264555e6c521bf3}
+      \strng{authorbibnamehash}{9345efc0547e643ef264555e6c521bf3}
+      \strng{authornamehash}{0b1633b537bf7a1088baa1a19f9fcebf}
+      \strng{authorfullhash}{9345efc0547e643ef264555e6c521bf3}
+      \strng{authorfullhashraw}{9345efc0547e643ef264555e6c521bf3}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Bulletin}
+      \field{number}{2}
+      \field{title}{Risk as feelings}
+      \field{volume}{127}
+      \field{year}{2001}
+      \field{pages}{267\bibrangedash 286}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1037/0033-2909.127.2.267
+      \endverb
+    \endentry
+    \entry{pessoa2008}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9091f9ac3929a82c651b02a265f166c}{%
+           family={Pessoa},
+           familyi={P\bibinitperiod},
+           given={Luiz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{fullhash}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{fullhashraw}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{bibnamehash}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{authorbibnamehash}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{authornamehash}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{authorfullhash}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{authorfullhashraw}{b9091f9ac3929a82c651b02a265f166c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Reviews Neuroscience}
+      \field{number}{2}
+      \field{title}{On the relationship between emotion and cognition}
+      \field{volume}{9}
+      \field{year}{2008}
+      \field{pages}{148\bibrangedash 158}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1038/nrn2317
+      \endverb
+    \endentry
+    \entry{russell2020}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=143fa183327d9fcd9de18eec99d6ca97}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5de798d5fa3c0236c0478134cd23f52a}{%
+           family={Norvig},
+           familyi={N\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Harlow, England}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhashraw}{b280605b721b4ebcba5395298499f924}
+      \strng{bibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorbibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authornamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhashraw}{b280605b721b4ebcba5395298499f924}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{title}{Artificial intelligence: A modern approach}
+      \field{year}{2020}
+    \endentry
+    \entry{slovic2007}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1f98811f35f2a5d68ea95bf9b4def931}{%
+           family={Slovic},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33d36ddc214974a8265e960965f173fc}{%
+           family={Finucane},
+           familyi={F\bibinitperiod},
+           given={Melissa\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d85a91e843826538f729359a5dad1677}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Ellen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ef28e6cea070b260fabab8053a43d3b}{%
+           family={MacGregor},
+           familyi={M\bibinitperiod},
+           given={Donald\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9b9bbac5340991e2442bf1c7f306c173}
+      \strng{fullhash}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{fullhashraw}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{bibnamehash}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{authorbibnamehash}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{authornamehash}{9b9bbac5340991e2442bf1c7f306c173}
+      \strng{authorfullhash}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{authorfullhashraw}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{number}{3}
+      \field{title}{The affect heuristic}
+      \field{volume}{177}
+      \field{year}{2007}
+      \field{pages}{1333\bibrangedash 1352}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1016/j.ejor.2005.04.006
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{bechara2000}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=44deb7f9a370ae344c6ed0d946765d0b}{%
+           family={Bechara},
+           familyi={B\bibinitperiod},
+           given={Antoine},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e517309e9bdb0bbdb4243d29e8209d08}{%
+           family={Damasio},
+           familyi={D\bibinitperiod},
+           given={Hanna},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c7feaf9112057d7bbbaf584ea34e408}{%
+           family={Damasio},
+           familyi={D\bibinitperiod},
+           given={Antonio\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fc4176aaa3c273b3d706199bfbcfecc3}
+      \strng{fullhash}{a1d071ffcdd357ac0cd262e61058c7b2}
+      \strng{fullhashraw}{a1d071ffcdd357ac0cd262e61058c7b2}
+      \strng{bibnamehash}{a1d071ffcdd357ac0cd262e61058c7b2}
+      \strng{authorbibnamehash}{a1d071ffcdd357ac0cd262e61058c7b2}
+      \strng{authornamehash}{fc4176aaa3c273b3d706199bfbcfecc3}
+      \strng{authorfullhash}{a1d071ffcdd357ac0cd262e61058c7b2}
+      \strng{authorfullhashraw}{a1d071ffcdd357ac0cd262e61058c7b2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cerebral Cortex}
+      \field{number}{3}
+      \field{title}{Emotion, decision making and the orbitofrontal cortex}
+      \field{volume}{10}
+      \field{year}{2000}
+      \field{pages}{295\bibrangedash 307}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1093/cercor/10.3.295
+      \endverb
+    \endentry
+    \entry{beukeboom2006}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6d31a7ed958f687e87a3165650386984}{%
+           family={Beukeboom},
+           familyi={B\bibinitperiod},
+           given={Camiel\bibnamedelima J.},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=374157e4510b779db92edd79a1acc83c}{%
+           family={Semin},
+           familyi={S\bibinitperiod},
+           given={Gün\bibnamedelima R.},
+           giveni={G\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ba3d5bc4398309c204aea52bc84673d4}
+      \strng{fullhash}{ba3d5bc4398309c204aea52bc84673d4}
+      \strng{fullhashraw}{ba3d5bc4398309c204aea52bc84673d4}
+      \strng{bibnamehash}{ba3d5bc4398309c204aea52bc84673d4}
+      \strng{authorbibnamehash}{ba3d5bc4398309c204aea52bc84673d4}
+      \strng{authornamehash}{ba3d5bc4398309c204aea52bc84673d4}
+      \strng{authorfullhash}{ba3d5bc4398309c204aea52bc84673d4}
+      \strng{authorfullhashraw}{ba3d5bc4398309c204aea52bc84673d4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Experimental Social Psychology}
+      \field{number}{5}
+      \field{title}{How mood turns on language}
+      \field{volume}{42}
+      \field{year}{2006}
+      \field{pages}{553\bibrangedash 566}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.jesp.2005.09.005
+      \endverb
+    \endentry
+    \entry{chomsky1965}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=28167c0b3800bc5cfb686676277005b0}{%
+           family={Chomsky},
+           familyi={C\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{fullhash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{fullhashraw}{28167c0b3800bc5cfb686676277005b0}
+      \strng{bibnamehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authorbibnamehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authornamehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authorfullhash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authorfullhashraw}{28167c0b3800bc5cfb686676277005b0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Aspects of the theory of syntax}
+      \field{year}{1965}
+    \endentry
+    \entry{gigerenzer2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b48d2c7ac3f28cdcd52b92c3c2953a61}{%
+           family={Gigerenzer},
+           familyi={G\bibinitperiod},
+           given={Gerd},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4ee24058ffe2d14df3188027e17c696}{%
+           family={Brighton},
+           familyi={B\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{71368eec16817037735ab897ec8bb50d}
+      \strng{fullhash}{71368eec16817037735ab897ec8bb50d}
+      \strng{fullhashraw}{71368eec16817037735ab897ec8bb50d}
+      \strng{bibnamehash}{71368eec16817037735ab897ec8bb50d}
+      \strng{authorbibnamehash}{71368eec16817037735ab897ec8bb50d}
+      \strng{authornamehash}{71368eec16817037735ab897ec8bb50d}
+      \strng{authorfullhash}{71368eec16817037735ab897ec8bb50d}
+      \strng{authorfullhashraw}{71368eec16817037735ab897ec8bb50d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Topics in Cognitive Science}
+      \field{number}{1}
+      \field{title}{Homo heuristicus: Why biased minds make better inferences}
+      \field{volume}{1}
+      \field{year}{2009}
+      \field{pages}{107\bibrangedash 143}
+      \range{pages}{37}
+      \verb{doi}
+      \verb 10.1111/j.1756-8765.2008.01006.x
+      \endverb
+    \endentry
+    \entry{isen2001}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=90851887e21c461d2ab602974251b206}{%
+           family={Isen},
+           familyi={I\bibinitperiod},
+           given={Alice\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90851887e21c461d2ab602974251b206}
+      \strng{fullhash}{90851887e21c461d2ab602974251b206}
+      \strng{fullhashraw}{90851887e21c461d2ab602974251b206}
+      \strng{bibnamehash}{90851887e21c461d2ab602974251b206}
+      \strng{authorbibnamehash}{90851887e21c461d2ab602974251b206}
+      \strng{authornamehash}{90851887e21c461d2ab602974251b206}
+      \strng{authorfullhash}{90851887e21c461d2ab602974251b206}
+      \strng{authorfullhashraw}{90851887e21c461d2ab602974251b206}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Consumer Psychology}
+      \field{number}{2}
+      \field{title}{An influence of positive affect on decision making in complex situations: Theoretical issues with practical implications}
+      \field{volume}{11}
+      \field{year}{2001}
+      \field{pages}{75\bibrangedash 85}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1207/S15327663JCP1102_01
+      \endverb
+    \endentry
+    \entry{kahneman1974}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=031d0d5f9391d970f6f089af958f701d}{%
+           family={Tversky},
+           familyi={T\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{fullhash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{fullhashraw}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{bibnamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorbibnamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authornamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorfullhash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorfullhashraw}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{4157}
+      \field{title}{Judgment under uncertainty: Heuristics and biases}
+      \field{volume}{185}
+      \field{year}{1974}
+      \field{pages}{1124\bibrangedash 1131}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1126/science.185.4157.1124
+      \endverb
+    \endentry
+    \entry{loewenstein2001}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=898ca02622955fd1ccdcf47220061ed2}{%
+           family={Loewenstein},
+           familyi={L\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86c96845d5fadba6351f48d53834d9b4}{%
+           family={Weber},
+           familyi={W\bibinitperiod},
+           given={Elke\bibnamedelima U.},
+           giveni={E\bibinitperiod\bibinitdelim U\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e8c2833e35b0418f6acab1c9a9bd672}{%
+           family={Hsee},
+           familyi={H\bibinitperiod},
+           given={Christopher\bibnamedelima K.},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a08b7a302d6a3d1a35d625ab7ad39b3}{%
+           family={Welch},
+           familyi={W\bibinitperiod},
+           given={Ned},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0b1633b537bf7a1088baa1a19f9fcebf}
+      \strng{fullhash}{9345efc0547e643ef264555e6c521bf3}
+      \strng{fullhashraw}{9345efc0547e643ef264555e6c521bf3}
+      \strng{bibnamehash}{9345efc0547e643ef264555e6c521bf3}
+      \strng{authorbibnamehash}{9345efc0547e643ef264555e6c521bf3}
+      \strng{authornamehash}{0b1633b537bf7a1088baa1a19f9fcebf}
+      \strng{authorfullhash}{9345efc0547e643ef264555e6c521bf3}
+      \strng{authorfullhashraw}{9345efc0547e643ef264555e6c521bf3}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Bulletin}
+      \field{number}{2}
+      \field{title}{Risk as feelings}
+      \field{volume}{127}
+      \field{year}{2001}
+      \field{pages}{267\bibrangedash 286}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1037/0033-2909.127.2.267
+      \endverb
+    \endentry
+    \entry{pessoa2008}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b9091f9ac3929a82c651b02a265f166c}{%
+           family={Pessoa},
+           familyi={P\bibinitperiod},
+           given={Luiz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{fullhash}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{fullhashraw}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{bibnamehash}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{authorbibnamehash}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{authornamehash}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{authorfullhash}{b9091f9ac3929a82c651b02a265f166c}
+      \strng{authorfullhashraw}{b9091f9ac3929a82c651b02a265f166c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Reviews Neuroscience}
+      \field{number}{2}
+      \field{title}{On the relationship between emotion and cognition}
+      \field{volume}{9}
+      \field{year}{2008}
+      \field{pages}{148\bibrangedash 158}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1038/nrn2317
+      \endverb
+    \endentry
+    \entry{russell2020}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=143fa183327d9fcd9de18eec99d6ca97}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5de798d5fa3c0236c0478134cd23f52a}{%
+           family={Norvig},
+           familyi={N\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Harlow, England}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhashraw}{b280605b721b4ebcba5395298499f924}
+      \strng{bibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorbibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authornamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhashraw}{b280605b721b4ebcba5395298499f924}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{title}{Artificial intelligence: A modern approach}
+      \field{year}{2020}
+    \endentry
+    \entry{slovic2007}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1f98811f35f2a5d68ea95bf9b4def931}{%
+           family={Slovic},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33d36ddc214974a8265e960965f173fc}{%
+           family={Finucane},
+           familyi={F\bibinitperiod},
+           given={Melissa\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d85a91e843826538f729359a5dad1677}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Ellen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ef28e6cea070b260fabab8053a43d3b}{%
+           family={MacGregor},
+           familyi={M\bibinitperiod},
+           given={Donald\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9b9bbac5340991e2442bf1c7f306c173}
+      \strng{fullhash}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{fullhashraw}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{bibnamehash}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{authorbibnamehash}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{authornamehash}{9b9bbac5340991e2442bf1c7f306c173}
+      \strng{authorfullhash}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{authorfullhashraw}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{number}{3}
+      \field{title}{The affect heuristic}
+      \field{volume}{177}
+      \field{year}{2007}
+      \field{pages}{1333\bibrangedash 1352}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1016/j.ejor.2005.04.006
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

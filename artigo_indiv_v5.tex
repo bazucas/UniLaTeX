@@ -1,0 +1,204 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage[style=apa, backend=biber]{biblatex}
+\addbibresource{biblio.bib} % Nome do arquivo de bibliografia
+\usepackage{csquotes} % Necessário para citações com babel
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{indentfirst} % Pacote para indentar o primeiro parágrafo
+\usepackage{newtxtext,newtxmath} % Usa fontes Times modernas
+\usepackage{xcolor} % Pacote para cores
+\usepackage{fancyhdr} % Para personalização do rodapé
+\usepackage{titlesec} % Para personalizar títulos e subtítulos
+
+% Configuração de Margens e Espaçamento
+\geometry{a4paper, margin=2.5cm}
+\setstretch{1.5}
+
+% Configuração de Tamanhos de Fonte e Espaçamento para Seções
+\titleformat{\section} % Títulos principais numerados
+{\normalfont\fontsize{14}{17}\bfseries}{\thesection}{1em}{}
+\titleformat*{\section} % Títulos principais não numerados
+{\normalfont\fontsize{14}{17}\bfseries}
+\titleformat{\subsection} % Subtítulos
+{\normalfont\fontsize{12}{15}\bfseries}{\thesubsection}{1em}{}
+
+% Ajuste de Espaçamento para Seções
+\titlespacing{\section}
+{0pt}{1.5em}{1em}
+\titlespacing*{\section}
+{0pt}{1.5em}{1em}
+\titlespacing{\subsection}
+{0pt}{1.2em}{0.8em}
+
+% Configuração de Rodapé com Numeração
+\pagestyle{fancy}
+\fancyhf{} % Limpa cabeçalho e rodapé
+\fancyfoot[R]{\thepage} % Numeração no canto inferior direito
+\renewcommand{\headrulewidth}{0pt} % Remove linha do cabeçalho
+\renewcommand{\footrulewidth}{0pt} % Remove linha do rodapé
+
+% Configuração de Cores
+\definecolor{barraazul}{RGB}{0, 51, 153}
+
+% Numeração das seções sem números iniciais adicionais
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
+
+% Redefinição do Cabeçalho da Bibliografia
+\defbibheading{bibliography}{
+	\section*{Referências Bibliográficas}
+	\addcontentsline{toc}{section}{Referências Bibliográficas}
+	\thispagestyle{fancy} % Garante que o rodapé seja consistente
+}
+
+% Garante que o estilo de página seja 'fancy' na bibliografia
+\AtBeginBibliography{\pagestyle{fancy}}
+
+% Ajuste para indentação de parágrafos
+\setlength{\parindent}{1.25cm}
+
+\begin{document}
+	
+	% Capa
+	\begin{titlepage}
+		\centering
+		\vspace*{-2cm} % Reduz a margem superior da página de título
+		% Ajusta as imagens para remover espaçamentos internos (se houver)
+		\raisebox{-0.5\height}{\includegraphics[width=0.4\textwidth]{iscte.png}}%
+		\hfill%
+		\raisebox{-0.46\height}{\includegraphics[width=0.4\textwidth]{ista.png}}\\[0.5cm]
+		\noindent
+		{\color{barraazul}\rule{\textwidth}{1mm}} % Barra azul horizontal
+		\\[1cm]
+		{\LARGE \textbf{A Influência das Emoções na Tomada de Decisão e no Uso de Heurísticas} \par}
+		\vspace{0.5cm}
+		\textbf{Mestrado em Inteligência Artificial} \\
+		\vspace{1cm}
+		\textbf{Aluno: Luís Ricardo Silva Inácio} \\
+		\textbf{Número: 129074} \\
+		\vspace{1cm}
+		\textbf{Unidade Curricular: Cognição e Emoção} \\
+		\vspace{1cm}
+		\textbf{Professora: Doutora Cristiane da Anunciação Souza} \\
+		\vfill
+		\textbf{Ano Letivo: 2024/2025} \par
+		\vfill
+		\textbf{Data de Entrega: 29 de novembro de 2024} \par
+	\end{titlepage}
+	
+	% Costas da Capa (Em branco)
+	\newpage
+	\thispagestyle{empty}
+	\mbox{}
+	\newpage
+	
+	% Configuração para numeração romana
+	\pagenumbering{roman}
+	
+	% Resumo
+	\section*{Resumo}
+	\addcontentsline{toc}{section}{Resumo}
+	
+	Este artigo analisa de forma abrangente o papel das emoções no uso de heurísticas e como a complexidade e ambiguidade da linguagem representam desafios na criação de sistemas de inteligência artificial (IA) emocional. Inicialmente, discute-se como as emoções influenciam as heurísticas cognitivas, facilitando decisões rápidas, mas também podendo levar a vieses e erros. Explora-se a dificuldade que sistemas de IA enfrentam na interpretação da linguagem emocional humana, devido a nuances como sarcasmo, ironia e expressões culturais. O trabalho examina tanto os impactos positivos das emoções na tomada de decisão e na IA—como a melhoria na interação homem-máquina—quanto os impactos negativos, incluindo exemplos práticos como assistentes virtuais e chatbots. Questões éticas e de privacidade são aprofundadas, destacando os riscos de manipulação emocional e invasão de privacidade na recolha de dados emocionais. Por fim, propõem-se abordagens para mitigar esses riscos, enfatizando a importância de modelos explicáveis, conformidade regulatória e educação dos utilizadores. Conclui-se que o desenvolvimento de IA emocional requer uma abordagem ética e interdisciplinar, equilibrando avanços tecnológicos com o respeito pelos valores humanos.
+	
+	\vspace{3em}
+	
+	\noindent\textbf{Palavras-Chave:} \normalsize{Emoções, Heurísticas Cognitivas, Tomada de Decisão, Inteligência Artificial Emocional, Privacidade de Dados, Processamento de Linguagem Natural, Ética em IA.}
+	
+	\newpage
+	
+	% Configuração para numeração arábica
+	\pagenumbering{arabic}
+	
+	% Introdução
+	\section{Introdução}
+	
+	As emoções desempenham um papel fundamental na forma como os indivíduos processam informações e tomam decisões. Elas influenciam diretamente o uso de heurísticas—atalhos cognitivos que simplificam decisões em cenários complexos ou de incerteza \parencite{kahneman1974}. Paralelamente, a linguagem, como meio de expressão emocional, é inerentemente complexa e ambígua, representando um desafio significativo para a criação de sistemas de inteligência artificial (IA) capazes de compreender e responder às emoções humanas \parencite{chomsky1965}. Este artigo explora a interseção entre emoções, heurísticas e linguagem na cognição humana e discute as implicações técnicas, éticas e de privacidade na criação de sistemas de IA emocional. Além disso, propõe abordagens para mitigar os riscos associados e promover o desenvolvimento de IA emocionalmente inteligente e ética.
+	
+	\section{O Papel das Emoções nas Heurísticas e a Complexidade da Linguagem na IA Emocional}
+	
+	\subsection{Heurísticas, Emoções e Linguagem: Uma Introdução Teórica}
+	
+	\textcite{kahneman1974} definiram heurísticas como mecanismos que permitem aos indivíduos lidar com problemas de forma eficiente, utilizando uma quantidade limitada de recursos cognitivos. Essas estratégias são particularmente úteis em situações em que o tempo ou as informações disponíveis são escassas. No entanto, as heurísticas não são infalíveis e podem levar a erros ou vieses cognitivos. As emoções influenciam diretamente o uso de heurísticas, funcionando como atalhos paralelos que podem ajudar ou prejudicar decisões, dependendo do contexto \parencite{slovic2007}.
+	
+	A linguagem é o meio pelo qual as emoções são frequentemente expressas e interpretadas. Conforme descrito por \textcite{chomsky1965}, a linguagem humana é complexa e permite uma variedade infinita de expressões. Essa complexidade apresenta desafios significativos para a IA, que precisa interpretar corretamente nuances culturais, contextuais e emocionais para compreender as emoções humanas e responder de maneira adequada.
+	
+	\subsection{Impactos Positivos das Emoções no Uso de Heurísticas e IA Emocional}
+	
+	As emoções podem facilitar decisões rápidas e eficientes através de heurísticas. \textcite{isen2001} destaca que estados emocionais positivos, como a felicidade, podem ampliar a criatividade e a flexibilidade cognitiva. Indivíduos felizes tendem a adotar uma abordagem mais global, resultando na aplicação de heurísticas adaptativas em contextos complexos. Por exemplo, em ambientes de trabalho, gestores com estados emocionais positivos são mais propensos a tomar decisões inovadoras e a resolver problemas de forma eficaz.
+	
+	Em sistemas de IA, a compreensão e incorporação de estados emocionais positivos podem melhorar a interação homem-máquina, tornando-a mais natural e eficaz. Assistentes virtuais que reconhecem e respondem a emoções podem proporcionar experiências de utilizador mais satisfatórias. Por exemplo, um sistema que detecta frustração no utilizador pode ajustar sua abordagem para fornecer assistência de maneira mais empática. Estudos mostram que tais sistemas aumentam a satisfação do utilizador e a eficiência no atendimento ao cliente \parencite{picard1997}.
+	
+	Além disso, a heurística do afeto permite que as emoções sinalizem decisões rápidas em situações de alto risco \parencite{slovic2007}. Na IA, modelos que reconhecem e respondem adequadamente a sinais emocionais podem otimizar interações humanas em contextos críticos, como assistência médica. Um sistema de IA capaz de interpretar corretamente a ansiedade de um paciente pode priorizar atendimentos ou oferecer suporte adicional, melhorando os resultados de saúde. Por exemplo, chatbots de saúde mental que identificam sinais de depressão ou ansiedade podem encaminhar o utilizador para profissionais qualificados \parencite{miner2016}.
+	
+	\subsection{Desafios na Interpretação da Linguagem Emocional pela IA}
+	
+	A ambiguidade e a complexidade da linguagem emocional representam obstáculos significativos para a IA emocional. Frases como “Estou bem” podem variar em significado, desde sinceridade até sarcasmo, dependendo do tom, da entonação e do contexto \parencite{pessoa2008}. Modelos de processamento de linguagem natural (PLN) atuais, como BERT e GPT, embora tenham avançado na interpretação de texto, ainda enfrentam dificuldades na compreensão das nuances emocionais implícitas \parencite{russell2020}.
+	
+	A dependência de corpora padronizados para treinar esses modelos levanta preocupações sobre representatividade e vieses culturais. \textcite{gigerenzer2009} destacam que tais vieses não são apenas problemas técnicos, mas também riscos éticos que podem levar a interpretações inadequadas e respostas inapropriadas em sistemas de IA. Por exemplo, expressões idiomáticas ou gírias específicas de uma cultura podem ser mal interpretadas por sistemas treinados em dados de outra cultura, resultando em mal-entendidos ou respostas ofensivas.
+	
+	Além disso, a linguagem figurativa, como metáforas e ironias, é frequentemente usada para expressar emoções complexas. \textcite{beukeboom2006} mostram que estados emocionais influenciam diretamente a forma como as pessoas escolhem palavras e estruturam frases. Capturar essas sutilezas requer modelos de IA que vão além da análise literal do texto, incorporando conhecimentos contextuais e culturais. A falta dessa capacidade pode resultar em sistemas que não conseguem responder de forma adequada a necessidades emocionais dos utilizadores, limitando a eficácia da IA emocional.
+	
+	\subsection{Impactos Negativos das Emoções e da Linguagem Ambígua na IA e Tomada de Decisão}
+	
+	Embora as emoções possam facilitar decisões, também podem introduzir vulnerabilidades significativas. Emoções intensas, como raiva ou ansiedade, podem distorcer julgamentos, levando a decisões enviesadas ou irracionais \parencite{bechara2000}. Em situações de stress elevado, indivíduos podem recorrer a heurísticas menos eficazes, resultando em escolhas subótimas. Por exemplo, um investidor influenciado pelo medo pode vender ações precipitadamente, ignorando análises racionais.
+	
+	Na IA, sistemas que tentam simular ou interpretar emoções enfrentam o desafio de não replicar esses enviesamentos. \textcite{russell2020} alertam que modelos que imitam heurísticas emocionais humanas podem inadvertidamente incorporar vieses culturais ou sociais, prejudicando a confiabilidade e a ética das decisões automatizadas. Por exemplo, um chatbot que aprende a partir de interações humanas sem filtragem pode adotar linguagem discriminatória ou ofensiva. Casos como o chatbot Tay da Microsoft, que rapidamente começou a emitir declarações inadequadas após interagir com utilizadores online, ilustram este risco \parencite{neff2016}.
+	
+	A linguagem ambígua exacerba esses desafios. Sistemas de IA podem interpretar mal o sarcasmo, a ironia ou o humor, resultando em respostas inadequadas ou até prejudiciais. Uma análise de sentimentos pode classificar erroneamente uma crítica sarcástica como positiva, comprometendo a eficácia do sistema em contextos como moderação de conteúdo ou análise de feedback do cliente \parencite{slovic2007}. Essa falha na interpretação pode levar a decisões empresariais baseadas em dados imprecisos, afetando estratégias de negócio e satisfação do cliente.
+	
+	\subsection{Implicações Éticas e de Privacidade na Criação de IA Emocional}
+	
+	O desenvolvimento de sistemas de IA emocional levanta questões éticas significativas. A manipulação emocional é uma preocupação central; sistemas que monitorizam emoções podem explorar vulnerabilidades dos utilizadores, especialmente em contextos comerciais, influenciando decisões de compra e violando a autonomia dos consumidores \parencite{pessoa2008}. Por exemplo, anúncios personalizados que exploram o estado emocional de um indivíduo podem levar a comportamentos de consumo impulsivos, afetando negativamente a saúde financeira e o bem-estar do consumidor.
+	
+	Além disso, a recolha de dados emocionais sensíveis, como gravações de voz, padrões de fala e expressões faciais, levanta questões de privacidade. \textcite{loewenstein2001} alertam que a recolha desses dados cria riscos intrínsecos de invasão de privacidade, especialmente se não forem implementadas medidas adequadas de segurança e anonimização. Há o perigo de que tais dados sejam utilizados para vigilância, discriminação ou outros fins maliciosos. Incidentes de violações de dados em grandes empresas têm mostrado como informações pessoais podem ser comprometidas \parencite{solove2013}.
+	
+	A falta de transparência nos sistemas de IA emocional, que muitas vezes operam como caixas-pretas, dificulta a compreensão de como as decisões são tomadas, comprometendo a confiança dos utilizadores \parencite{russell2020}. Sem uma explicação clara de como um sistema interpreta emoções e toma decisões, é difícil identificar e corrigir possíveis vieses ou erros. Isso pode resultar em prejuízos para os utilizadores, que podem ser afetados por decisões injustas ou inadequadas.
+	
+	\subsection{Abordagens para Mitigar Riscos Éticos e de Privacidade}
+	
+	Para abordar esses desafios, é essencial o desenvolvimento de modelos explicáveis que permitam aos utilizadores entender como as emoções são detectadas e influenciam as decisões do sistema \parencite{russell2020}. A explicabilidade aumenta a confiança do utilizador e permite a identificação de possíveis vieses ou falhas no sistema. Técnicas como modelos de caixa-branca ou o uso de algoritmos interpretáveis podem ser adotadas.
+	
+	A aplicação rigorosa de regulamentações como o Regulamento Geral de Proteção de Dados (RGPD) é fundamental para proteger a privacidade dos utilizadores. O RGPD estabelece diretrizes claras sobre a recolha, processamento e armazenamento de dados pessoais, incluindo dados emocionais sensíveis. Empresas e desenvolvedores devem assegurar a conformidade com essas regulamentações para evitar abusos e sanções legais.
+	
+	Técnicas como aprendizagem federada, que permitem treinar modelos sem transferir dados sensíveis para servidores centrais, mostram potencial para reduzir riscos de privacidade \parencite{pessoa2008}. Nesta abordagem, os dados permanecem no dispositivo do utilizador, e apenas os parâmetros do modelo são compartilhados, minimizando a exposição de informações pessoais. Além disso, a utilização de criptografia e anonimização de dados pode reforçar a segurança.
+	
+	Além disso, a educação dos utilizadores sobre os riscos associados ao compartilhamento de dados emocionais e a promoção de controlos sobre como as suas informações são usadas são cruciais para capacitar os indivíduos e fomentar interações mais seguras \parencite{slovic2007}. Campanhas de sensibilização e políticas claras de privacidade podem ajudar a estabelecer expectativas realistas e promover uma cultura de transparência.
+	
+	\subsection{Integração Ética de Heurísticas Emocionais na IA}
+	
+	\textcite{gigerenzer2009} sugerem que as heurísticas humanas evoluíram para lidar com incertezas, um desafio que as máquinas enfrentam de maneira menos eficiente. A integração de heurísticas emocionais em sistemas de IA apresenta tanto oportunidades como riscos. Por um lado, pode tornar os sistemas mais adaptativos e responsivos às necessidades humanas; por outro, pode introduzir vieses e questões éticas.
+	
+	Para integrar heurísticas emocionais de forma ética, é necessário:
+	
+	\begin{itemize}
+		\item \textbf{Transparência nos algoritmos}: Desenvolver algoritmos cujos processos de tomada de decisão possam ser auditados e compreendidos por especialistas e, idealmente, pelos próprios utilizadores.
+		\item \textbf{Diversidade nos dados de treino}: Utilizar conjuntos de dados que representem a diversidade cultural e emocional da população, reduzindo vieses associados a grupos específicos.
+		\item \textbf{Supervisão humana}: Manter um nível de supervisão humana nas decisões críticas, especialmente naquelas que afetam significativamente a vida dos indivíduos.
+		\item \textbf{Ética incorporada}: Incluir princípios éticos no design dos sistemas, alinhados com normas e regulamentações internacionais.
+		\item \textbf{Feedback contínuo}: Implementar mecanismos que permitam aos utilizadores fornecer feedback sobre as decisões da IA, facilitando melhorias contínuas no sistema.
+		\item \textbf{Avaliação contínua}: Realizar avaliações periódicas dos sistemas para identificar e corrigir potenciais vieses ou falhas, garantindo que a IA permanece alinhada com os valores éticos estabelecidos.
+	\end{itemize}
+	
+	\section{Conclusão}
+	
+	As emoções e a linguagem desempenham papéis cruciais na cognição humana e na tomada de decisão através de heurísticas. Embora possam facilitar decisões rápidas e adaptativas, também introduzem desafios significativos para a criação de sistemas de IA emocional. A complexidade e ambiguidade da linguagem humana representam obstáculos técnicos substanciais, enquanto questões éticas e de privacidade exigem atenção cuidadosa e soluções robustas.
+	
+	Para maximizar os benefícios e mitigar os riscos, é essencial que desenvolvedores, reguladores e utilizadores colaborem na formulação de soluções éticas e transparentes. Conforme enfatizado por \textcite{russell2020}, o futuro da IA emocional depende da sua capacidade de respeitar os direitos humanos e promover interações mais empáticas e seguras. Ao equilibrar emoção, cognição e tecnologia, é possível avançar para sistemas de IA que não apenas entendem as emoções humanas, mas também operam de maneira ética e responsável.
+	
+	O progresso nesta área requer um compromisso contínuo com a pesquisa interdisciplinar, envolvendo psicologia, linguística, ciência da computação e ética. Somente através de uma abordagem holística poderemos desenvolver sistemas de IA emocional que beneficiem a sociedade como um todo, respeitando a dignidade e a privacidade dos indivíduos. A inovação responsável nesta área tem o potencial de transformar positivamente a forma como interagimos com a tecnologia, promovendo um futuro onde a inteligência artificial seja verdadeiramente empática e alinhada com os valores humanos.
+	
+	Em última análise, a integração bem-sucedida de emoções e heurísticas na IA dependerá da nossa capacidade de compreender profundamente a natureza humana e de traduzir esse conhecimento em sistemas tecnológicos que reflitam não apenas a inteligência, mas também a sabedoria e a ética humanas.
+	
+	\newpage
+	
+	% Referências
+	\printbibliography
+	
+\end{document}
