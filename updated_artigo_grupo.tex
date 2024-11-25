@@ -1,0 +1,184 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage[style=apa, backend=biber]{biblatex}
+\addbibresource{refs.bib} % Nome do arquivo de bibliografia
+\usepackage{csquotes} % Necessário para citações com babel
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{indentfirst} % Pacote para indentar o primeiro parágrafo
+\usepackage{newtxtext,newtxmath} % Usa fontes Times modernas
+\usepackage{xcolor} % Pacote para cores
+\usepackage{fancyhdr} % Para personalização do rodapé
+\usepackage{titlesec} % Para personalizar títulos e subtítulos
+
+% Configuração de Margens e Espaçamento
+\geometry{a4paper, margin=2.5cm}
+\setstretch{1.5}
+
+% Configuração de Tamanhos de Fonte e Espaçamento para Seções
+\titleformat{\section} % Títulos principais numerados
+{\normalfont\fontsize{14}{17}\bfseries}{\thesection}{1em}{}
+\titleformat*{\section} % Títulos principais não numerados
+{\normalfont\fontsize{14}{17}\bfseries}
+\titleformat{\subsection} % Subtítulos
+{\normalfont\fontsize{12}{15}\bfseries}{\thesubsection}{1em}{}
+
+% Ajuste de Espaçamento para Seções
+\titlespacing{\section}
+{0pt}{1.5em}{1em}
+\titlespacing*{\section}
+{0pt}{1.5em}{1em}
+\titlespacing{\subsection}
+{0pt}{1.2em}{0.8em}
+
+% Configuração de Rodapé com Numeração
+\pagestyle{fancy}
+\fancyhf{} % Limpa cabeçalho e rodapé
+\fancyfoot[R]{\thepage} % Numeração no canto inferior direito
+\renewcommand{\headrulewidth}{0pt} % Remove linha do cabeçalho
+\renewcommand{\footrulewidth}{0pt} % Remove linha do rodapé
+
+% Configuração de Cores
+\definecolor{barraazul}{RGB}{0, 51, 153}
+
+% Numeração das seções sem números iniciais adicionais
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
+
+% Redefinição do Cabeçalho da Bibliografia
+\defbibheading{bibliography}{
+	\section*{Referências Bibliográficas}
+	\addcontentsline{toc}{section}{Referências Bibliográficas}
+	\thispagestyle{fancy} % Garante que o rodapé seja consistente
+}
+
+% Garante que o estilo de página seja 'fancy' na bibliografia
+\AtBeginBibliography{\pagestyle{fancy}}
+
+% Ajuste para indentação de parágrafos
+\setlength{\parindent}{1.25cm}
+
+\begin{document}
+	
+	% Capa
+	\begin{titlepage}
+		\centering
+		\vspace*{-2cm} % Reduz a margem superior da página de título
+		
+		% Ajusta as imagens para remover espaçamentos internos (se houver)
+		\raisebox{-0.5\height}{\includegraphics[width=0.4\textwidth]{iscte.png}}%
+		\hfill%
+		\raisebox{-0.46\height}{\includegraphics[width=0.4\textwidth]{ista.png}}\\[0.5cm]
+		
+		\noindent
+		{\color{barraazul}\rule{\textwidth}{1mm}} % Barra azul horizontal
+		\\[1cm]
+		
+		{\LARGE  \textbf{Análise de Sentimentos em IA} \par}
+		\vspace{1.5cm}
+		
+		{\Large \textbf{Mestrado em Inteligência Artificial}} \par
+		\vspace{3cm}
+		
+		{\large \textbf{Aluno: Luís Ricardo Silva Inácio}} \par
+		{\large \textbf{Aluno: João Costa}} \par
+		{\large \textbf{Aluno: Diogo}} \par
+
+		\vspace{3cm}
+		
+		{\large \textbf{Unidade Curricular: Cognição e Emoção}} \par
+		\vspace{1cm}
+		
+		{\large \textbf{Professora: Doutora Cristiane da Anunciação Souza}} \par
+		\vfill
+		
+		{\large \textbf{Data de Entrega: 29 de novembro de 2024}} \par
+	\end{titlepage}
+	
+	
+	% Costas da Capa (Em branco)
+	\newpage
+	\thispagestyle{empty}
+	\mbox{}
+	\newpage
+	
+	% Configuração para numeração romana
+	\pagenumbering{roman}
+	
+	% Resumo
+	\section*{Resumo}
+	\addcontentsline{toc}{section}{Resumo}
+	
+	Este artigo analisa de forma abrangente o papel das emoções no uso de heurísticas e como a 
+	
+	\vspace{4em}
+	
+	\noindent\textbf{Palavras-Chave:} \normalsize{Emoções, }
+	
+	\newpage
+	
+	% Configuração para numeração arábica
+	\pagenumbering{arabic}
+	
+	% Introdução
+	\section{Introdução}
+	
+	O desenvolvimento de sistemas de Inteligência Artificial (IA) emocional representa um dos avanços mais promissores e desafiadores da interação humano-máquina. A análise de sentimentos e a personalização de modelos afetivos destacam-se como ferramentas fundamentais nesse campo, permitindo que a IA compreenda e responda de forma mais eficaz às emoções humanas. Este artigo apresenta uma análise crítica de metodologias associadas à personalização e multimodalidade em IA emocional, com base no artigo "Personalization of Affective Models Using Classical Machine Learning: A Feasibility Study" (Kargarandehkordi et al., 2024). Complementarmente, exploram-se contribuições de estudos como "Facial Emotion Recognition Through Custom Lightweight CNN Model" (Gursesli et al., 2024) e "EAV: EEG-Audio-Video Dataset for Emotion Recognition in Conversational Contexts" (Lee et al., 2024).
+	
+	Adicionalmente, a integração de insights de obras fundamentais, como Affective Computing (Picard, 1997) e Emotion and Cognition (Pessoa, 2013), bem como discussões éticas de The Ethics of Artificial Intelligence and Robotics (Müller, 2020), permite contextualizar os avanços em IA emocional dentro de uma visão crítica mais ampla. Este trabalho visa abordar não apenas as inovações tecnológicas, mas também suas implicações práticas e éticas, delineando desafios e caminhos futuros.
+		
+	
+	\section{Metodologia e Avanços}
+	
+	\subsection{Personalização de Modelos Afetivos}
+	
+	O artigo de Kargarandehkordi et al. (2024) foca na transição de abordagens generalistas para modelos personalizados na análise de emoções. Baseando-se em algoritmos clássicos, como K-Nearest Neighbors e Random Forest, os autores demonstram que a personalização pode melhorar significativamente a precisão da classificação de emoções em cenários onde a variabilidade emocional intrapessoal é alta. Este avanço é alinhado ao conceito de adaptabilidade dos sistemas emocionais, discutido em Affective Computing (Picard, 1997), que argumenta que a compreensão das emoções humanas exige um modelo dinâmico capaz de lidar com variações contextuais.
+	
+	Embora promissor, o trabalho levanta preocupações práticas. Modelos personalizados são mais precisos, mas apresentam desafios de escalabilidade e viabilidade computacional, especialmente em contextos de aplicação em larga escala. Essa questão é amplificada pela necessidade de treinar modelos em dados limitados, o que pode introduzir viés algorítmico e comprometer a equidade (Müller, 2020).
+	
+	
+	\subsection{Análise Multimodal}
+	
+	No artigo de Gursesli et al. (2024), o uso de redes neurais convolucionais leves (CNNs) para reconhecimento facial de emoções destaca-se como uma abordagem eficiente em termos de recursos computacionais. O modelo CLCM alcança desempenhos comparáveis a arquiteturas mais complexas, tornando-se uma opção viável para aplicações em tempo real. Por outro lado, o estudo de Lee et al. (2024) explora a análise multimodal, combinando EEG, áudio e vídeo para reconhecer emoções em contextos conversacionais. Esta abordagem, alinhada ao levantamento de Poria et al. (2015), demonstra que a integração de múltiplas modalidades aumenta a robustez dos sistemas de IA emocional, mas apresenta desafios técnicos significativos na coleta e processamento de dados.
+	
+	
+	\section{Integração de Emoção e Cognição}
+	
+	Os avanços descritos acima refletem a interação complexa entre emoção e cognição no cérebro humano. Pessoa (2013) argumenta que esses processos não podem ser dissociados, dado que sistemas emocionais e cognitivos interagem em redes cerebrais dinâmicas. Este entendimento é essencial para desenvolver sistemas de IA emocional que não apenas reconheçam emoções, mas também adaptem respostas de forma contextualizada. No entanto, a integração bem-sucedida depende de compreender como heurísticas emocionais influenciam decisões humanas, como discutido em Haidt (2001). Modelos de IA que negligenciam essas interações correm o risco de simplificar excessivamente comportamentos humanos complexos.
+	
+	
+	
+	\section{Implicações Éticas e Sociais}
+	
+	O impacto ético do uso de IA emocional é um tema central em Müller (2020). Questões como privacidade, viés algorítmico e a possibilidade de manipulação emocional são preocupações crescentes. Em contextos multimodais, como os apresentados por Lee et al. (2024), o acesso a dados sensíveis, como EEG e expressões faciais, requer salvaguardas rigorosas para proteger os utilizadores. Adicionalmente, a dependência de dados específicos pode exacerbar desigualdades, se os sistemas forem treinados com representações limitadas de populações diversas.
+	
+	Por outro lado, Picard (1997) argumenta que IA emocional tem o potencial de melhorar significativamente a interação humano-máquina, desde que desenvolvida com responsabilidade. Sistemas personalizados podem, por exemplo, adaptar-se às necessidades emocionais de utilizadores vulneráveis, como idosos ou pessoas com transtornos neurológicos. No entanto, é crucial que esses avanços sejam acompanhados de regulamentações claras que garantam a segurança e a transparência.
+	
+	\section{Desafios e Oportunidades Futuras}
+	
+	A análise crítica dos artigos revisados revela que o campo da IA emocional está em uma encruzilhada entre inovação técnica e responsabilidade ética. Desafios como a escalabilidade de modelos personalizados, a coleta de dados multimodais e a mitigação de vieses precisam ser enfrentados para que os sistemas sejam amplamente adotados. Ao mesmo tempo, há oportunidades significativas para integrar esses avanços em áreas como saúde, educação e interação social.
+	
+	A pesquisa futura deve focar em:
+	
+		\begin{itemize}
+		\item \textbf{Desenvolver frameworks éticos robustos que guiem o uso de IA emocional em contextos sensíveis.}
+		\item \textbf{Ampliar a diversidade dos datasets usados para treinar modelos, garantindo representatividade global.}
+		\item \textbf{Explorar novas modalidades de dados, como biomarcadores, que possam enriquecer a análise emocional sem comprometer a privacidade.}
+		\end{itemize}
+		
+	
+	\section{Conclusão}
+	
+	Este trabalho discutiu como a personalização e a análise multimodal representam avanços significativos no campo da IA emocional, ao mesmo tempo em que destacou lacunas e desafios éticos. A integração de emoção e cognição, como explorado por Pessoa (2013) e Haidt (2001), é um passo crucial para desenvolver sistemas de IA que sejam tecnicamente eficazes e socialmente responsáveis. Combinando inovação com reflexão ética, a IA emocional pode transformar positivamente a interação humano-máquina, desde que sejam estabelecidas bases sólidas para seu desenvolvimento e implementação. 
+	
+	\newpage
+	
+	% Referências
+	\printbibliography
+	
+\end{document}

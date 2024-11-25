@@ -1,0 +1,815 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{gursesli2024}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=d0d805210af10195b64f07eaaf48571d}{%
+           family={Gursesli},
+           familyi={G\bibinitperiod},
+           given={Mustafa\bibnamedelima Can},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3868db683a8f3879a05cd029f843433c}{%
+           family={Lombardi},
+           familyi={L\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff35ce05c0fb4432399846bc423769f3}{%
+           family={Duradoni},
+           familyi={D\bibinitperiod},
+           given={Mirko},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02220cf73bad2ccbac3f4b5a11fb0cf7}{%
+           family={Bocchi},
+           familyi={B\bibinitperiod},
+           given={Leonardo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2dd49a0e905bd66298e6796747ad4400}{%
+           family={Guazzini},
+           familyi={G\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eba447e8f35c2af1401ba4ee3dfbc33e}{%
+           family={Lanata},
+           familyi={L\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4f9853f09730c9dfcc9c6fdd47a813f0}
+      \strng{fullhash}{48889038a10caa9a42f84ce690686b47}
+      \strng{fullhashraw}{48889038a10caa9a42f84ce690686b47}
+      \strng{bibnamehash}{48889038a10caa9a42f84ce690686b47}
+      \strng{authorbibnamehash}{48889038a10caa9a42f84ce690686b47}
+      \strng{authornamehash}{4f9853f09730c9dfcc9c6fdd47a813f0}
+      \strng{authorfullhash}{48889038a10caa9a42f84ce690686b47}
+      \strng{authorfullhashraw}{48889038a10caa9a42f84ce690686b47}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{note}{Received: March 5, 2024; Accepted: March 18, 2024; Published: March 22, 2024}
+      \field{title}{Facial Emotion Recognition (FER) Through Custom Lightweight CNN Model: Performance Evaluation in Public Datasets}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{pages}{45543\bibrangedash 45556}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2024.3380847
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10477992
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10477992
+      \endverb
+    \endentry
+    \entry{haidt2001}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=daa1bbcfa28b8ce2f89c228aad136098}{%
+           family={Haidt},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{daa1bbcfa28b8ce2f89c228aad136098}
+      \strng{fullhash}{daa1bbcfa28b8ce2f89c228aad136098}
+      \strng{fullhashraw}{daa1bbcfa28b8ce2f89c228aad136098}
+      \strng{bibnamehash}{daa1bbcfa28b8ce2f89c228aad136098}
+      \strng{authorbibnamehash}{daa1bbcfa28b8ce2f89c228aad136098}
+      \strng{authornamehash}{daa1bbcfa28b8ce2f89c228aad136098}
+      \strng{authorfullhash}{daa1bbcfa28b8ce2f89c228aad136098}
+      \strng{authorfullhashraw}{daa1bbcfa28b8ce2f89c228aad136098}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Review}
+      \field{number}{4}
+      \field{title}{The Emotional Dog and its Rational Tail: A Social Intuitionist Approach to Moral Judgment}
+      \field{volume}{108}
+      \field{year}{2001}
+      \field{pages}{814\bibrangedash 834}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1037/0033-295X.108.4.814
+      \endverb
+    \endentry
+    \entry{kargarandehkordi2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cbe451c6ef0281af7ccc2c1c7c942eb0}{%
+           family={Kargarandehkordi},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b37727e85f16b3f67477ac40a002d417}{%
+           family={Kaisti},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58d21f5416fdd9b598991641c049f2ee}{%
+           family={Washington},
+           familyi={W\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{293b320534479857b4271fefc02b4b7e}
+      \strng{fullhash}{2ec255e1226c06c111ff32062a0e80ae}
+      \strng{fullhashraw}{2ec255e1226c06c111ff32062a0e80ae}
+      \strng{bibnamehash}{2ec255e1226c06c111ff32062a0e80ae}
+      \strng{authorbibnamehash}{2ec255e1226c06c111ff32062a0e80ae}
+      \strng{authornamehash}{293b320534479857b4271fefc02b4b7e}
+      \strng{authorfullhash}{2ec255e1226c06c111ff32062a0e80ae}
+      \strng{authorfullhashraw}{2ec255e1226c06c111ff32062a0e80ae}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{1337}
+      \field{title}{Personalization of Affective Models Using Classical Machine Learning: A Feasibility Study}
+      \field{volume}{14}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.3390/app1413337
+      \endverb
+    \endentry
+    \entry{lee2024}{article}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=a61f9ed3bec7d38bef5e42a8a6f04fe3}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Min-Ho},
+           giveni={M\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=847684a730e131cbf623e24382d249d6}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7316c499712bccd1eb90a1138d6bc473}{%
+           family={Niu},
+           familyi={N\bibinitperiod},
+           given={Yusheng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75e541011ac7dc76dfb276424a52c369}{%
+           family={Yeo},
+           familyi={Y\bibinitperiod},
+           given={Jin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70cce7c169e34f9e62ca7d64d7b5f014}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={Hyo-Jeong},
+           giveni={H\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e84a17dde6aa3782e956e00b37a5684}{%
+           family={Jeon},
+           familyi={J\bibinitperiod},
+           given={Min-Gyeong},
+           giveni={M\bibinithyphendelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39ca1b4c9e9f11db612227ff32b66e8e}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={In-Ji},
+           giveni={I\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8ae40be246a2b0cef659181e39485ef}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Namhee},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=455bc785af699d65bc06db9c1ec38808}{%
+           family={Kwon},
+           familyi={K\bibinitperiod},
+           given={Oh-Sang},
+           giveni={O\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80203dd50a8fcb0137edf1ecb209e927}{%
+           family={Jang},
+           familyi={J\bibinitperiod},
+           given={Junghye},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{532ff68dcebb6f18ab8dd5ae1e2a8496}
+      \strng{fullhash}{2096b29b3875756600f0e1f34a1a3e0f}
+      \strng{fullhashraw}{2096b29b3875756600f0e1f34a1a3e0f}
+      \strng{bibnamehash}{2096b29b3875756600f0e1f34a1a3e0f}
+      \strng{authorbibnamehash}{2096b29b3875756600f0e1f34a1a3e0f}
+      \strng{authornamehash}{532ff68dcebb6f18ab8dd5ae1e2a8496}
+      \strng{authorfullhash}{2096b29b3875756600f0e1f34a1a3e0f}
+      \strng{authorfullhashraw}{2096b29b3875756600f0e1f34a1a3e0f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Data}
+      \field{number}{1}
+      \field{title}{EEG-Audio-Video Dataset for Emotion Recognition in Conversational Contexts}
+      \field{volume}{11}
+      \field{year}{2024}
+      \field{pages}{1026}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41597-024-03838-4
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41597-024-03838-4
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41597-024-03838-4
+      \endverb
+    \endentry
+    \entry{mueller2020}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d8f5386cdc84513cd2889cfcb94e4a8f}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={V.\bibnamedelimi C.},
+           giveni={V\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d8f5386cdc84513cd2889cfcb94e4a8f}
+      \strng{fullhash}{d8f5386cdc84513cd2889cfcb94e4a8f}
+      \strng{fullhashraw}{d8f5386cdc84513cd2889cfcb94e4a8f}
+      \strng{bibnamehash}{d8f5386cdc84513cd2889cfcb94e4a8f}
+      \strng{authorbibnamehash}{d8f5386cdc84513cd2889cfcb94e4a8f}
+      \strng{authornamehash}{d8f5386cdc84513cd2889cfcb94e4a8f}
+      \strng{authorfullhash}{d8f5386cdc84513cd2889cfcb94e4a8f}
+      \strng{authorfullhashraw}{d8f5386cdc84513cd2889cfcb94e4a8f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-04-27}
+      \field{title}{The Ethics of Artificial Intelligence and Robotics}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://plato.stanford.edu/entries/ethics-ai/
+      \endverb
+      \verb{url}
+      \verb https://plato.stanford.edu/entries/ethics-ai/
+      \endverb
+    \endentry
+    \entry{pessoa2013}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4103192b17c3a2276daeca65cd4dce19}{%
+           family={Pessoa},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4103192b17c3a2276daeca65cd4dce19}
+      \strng{fullhash}{4103192b17c3a2276daeca65cd4dce19}
+      \strng{fullhashraw}{4103192b17c3a2276daeca65cd4dce19}
+      \strng{bibnamehash}{4103192b17c3a2276daeca65cd4dce19}
+      \strng{authorbibnamehash}{4103192b17c3a2276daeca65cd4dce19}
+      \strng{authornamehash}{4103192b17c3a2276daeca65cd4dce19}
+      \strng{authorfullhash}{4103192b17c3a2276daeca65cd4dce19}
+      \strng{authorfullhashraw}{4103192b17c3a2276daeca65cd4dce19}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Reviews Neuroscience}
+      \field{number}{7}
+      \field{title}{Emotion and Cognition: From Mapping Brain Functions to Their Interactions}
+      \field{volume}{14}
+      \field{year}{2013}
+      \field{pages}{473\bibrangedash 486}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1038/nrn3476
+      \endverb
+    \endentry
+    \entry{picard1997}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0416032fb587ef10e907f9641934d99a}{%
+           family={Picard},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{0416032fb587ef10e907f9641934d99a}
+      \strng{fullhash}{0416032fb587ef10e907f9641934d99a}
+      \strng{fullhashraw}{0416032fb587ef10e907f9641934d99a}
+      \strng{bibnamehash}{0416032fb587ef10e907f9641934d99a}
+      \strng{authorbibnamehash}{0416032fb587ef10e907f9641934d99a}
+      \strng{authornamehash}{0416032fb587ef10e907f9641934d99a}
+      \strng{authorfullhash}{0416032fb587ef10e907f9641934d99a}
+      \strng{authorfullhashraw}{0416032fb587ef10e907f9641934d99a}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Affective Computing}
+      \field{year}{1997}
+    \endentry
+    \entry{poria2015}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3187ff78cd216392d9c0beafc4876251}{%
+           family={Poria},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24fe910944f1b7a2547d238e9d52ae6b}{%
+           family={Cambria},
+           familyi={C\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b484f321538e4237f3b4cdf6216ac59a}{%
+           family={Gelbukh},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a9784b7c9364d0875739540e00af9523}
+      \strng{fullhash}{4430d7c898c24aa48aeb0bc3c72926e4}
+      \strng{fullhashraw}{4430d7c898c24aa48aeb0bc3c72926e4}
+      \strng{bibnamehash}{4430d7c898c24aa48aeb0bc3c72926e4}
+      \strng{authorbibnamehash}{4430d7c898c24aa48aeb0bc3c72926e4}
+      \strng{authornamehash}{a9784b7c9364d0875739540e00af9523}
+      \strng{authorfullhash}{4430d7c898c24aa48aeb0bc3c72926e4}
+      \strng{authorfullhashraw}{4430d7c898c24aa48aeb0bc3c72926e4}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information Fusion}
+      \field{title}{Multimodal Sentiment Analysis: A Survey and Comparison}
+      \field{volume}{28}
+      \field{year}{2015}
+      \field{pages}{87\bibrangedash 93}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.inffus.2014.07.001
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{gursesli2024}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=d0d805210af10195b64f07eaaf48571d}{%
+           family={Gursesli},
+           familyi={G\bibinitperiod},
+           given={Mustafa\bibnamedelima Can},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3868db683a8f3879a05cd029f843433c}{%
+           family={Lombardi},
+           familyi={L\bibinitperiod},
+           given={Sara},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff35ce05c0fb4432399846bc423769f3}{%
+           family={Duradoni},
+           familyi={D\bibinitperiod},
+           given={Mirko},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02220cf73bad2ccbac3f4b5a11fb0cf7}{%
+           family={Bocchi},
+           familyi={B\bibinitperiod},
+           given={Leonardo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2dd49a0e905bd66298e6796747ad4400}{%
+           family={Guazzini},
+           familyi={G\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eba447e8f35c2af1401ba4ee3dfbc33e}{%
+           family={Lanata},
+           familyi={L\bibinitperiod},
+           given={Antonio},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4f9853f09730c9dfcc9c6fdd47a813f0}
+      \strng{fullhash}{48889038a10caa9a42f84ce690686b47}
+      \strng{fullhashraw}{48889038a10caa9a42f84ce690686b47}
+      \strng{bibnamehash}{48889038a10caa9a42f84ce690686b47}
+      \strng{authorbibnamehash}{48889038a10caa9a42f84ce690686b47}
+      \strng{authornamehash}{4f9853f09730c9dfcc9c6fdd47a813f0}
+      \strng{authorfullhash}{48889038a10caa9a42f84ce690686b47}
+      \strng{authorfullhashraw}{48889038a10caa9a42f84ce690686b47}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{note}{Received: March 5, 2024; Accepted: March 18, 2024; Published: March 22, 2024}
+      \field{title}{Facial Emotion Recognition (FER) Through Custom Lightweight CNN Model: Performance Evaluation in Public Datasets}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{pages}{45543\bibrangedash 45556}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2024.3380847
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/10477992
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/10477992
+      \endverb
+    \endentry
+    \entry{haidt2001}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=daa1bbcfa28b8ce2f89c228aad136098}{%
+           family={Haidt},
+           familyi={H\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{daa1bbcfa28b8ce2f89c228aad136098}
+      \strng{fullhash}{daa1bbcfa28b8ce2f89c228aad136098}
+      \strng{fullhashraw}{daa1bbcfa28b8ce2f89c228aad136098}
+      \strng{bibnamehash}{daa1bbcfa28b8ce2f89c228aad136098}
+      \strng{authorbibnamehash}{daa1bbcfa28b8ce2f89c228aad136098}
+      \strng{authornamehash}{daa1bbcfa28b8ce2f89c228aad136098}
+      \strng{authorfullhash}{daa1bbcfa28b8ce2f89c228aad136098}
+      \strng{authorfullhashraw}{daa1bbcfa28b8ce2f89c228aad136098}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Psychological Review}
+      \field{number}{4}
+      \field{title}{The Emotional Dog and its Rational Tail: A Social Intuitionist Approach to Moral Judgment}
+      \field{volume}{108}
+      \field{year}{2001}
+      \field{pages}{814\bibrangedash 834}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1037/0033-295X.108.4.814
+      \endverb
+    \endentry
+    \entry{kargarandehkordi2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cbe451c6ef0281af7ccc2c1c7c942eb0}{%
+           family={Kargarandehkordi},
+           familyi={K\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b37727e85f16b3f67477ac40a002d417}{%
+           family={Kaisti},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58d21f5416fdd9b598991641c049f2ee}{%
+           family={Washington},
+           familyi={W\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{293b320534479857b4271fefc02b4b7e}
+      \strng{fullhash}{2ec255e1226c06c111ff32062a0e80ae}
+      \strng{fullhashraw}{2ec255e1226c06c111ff32062a0e80ae}
+      \strng{bibnamehash}{2ec255e1226c06c111ff32062a0e80ae}
+      \strng{authorbibnamehash}{2ec255e1226c06c111ff32062a0e80ae}
+      \strng{authornamehash}{293b320534479857b4271fefc02b4b7e}
+      \strng{authorfullhash}{2ec255e1226c06c111ff32062a0e80ae}
+      \strng{authorfullhashraw}{2ec255e1226c06c111ff32062a0e80ae}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{1337}
+      \field{title}{Personalization of Affective Models Using Classical Machine Learning: A Feasibility Study}
+      \field{volume}{14}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.3390/app1413337
+      \endverb
+    \endentry
+    \entry{lee2024}{article}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=a61f9ed3bec7d38bef5e42a8a6f04fe3}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Min-Ho},
+           giveni={M\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=847684a730e131cbf623e24382d249d6}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7316c499712bccd1eb90a1138d6bc473}{%
+           family={Niu},
+           familyi={N\bibinitperiod},
+           given={Yusheng},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75e541011ac7dc76dfb276424a52c369}{%
+           family={Yeo},
+           familyi={Y\bibinitperiod},
+           given={Jin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70cce7c169e34f9e62ca7d64d7b5f014}{%
+           family={Shin},
+           familyi={S\bibinitperiod},
+           given={Hyo-Jeong},
+           giveni={H\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e84a17dde6aa3782e956e00b37a5684}{%
+           family={Jeon},
+           familyi={J\bibinitperiod},
+           given={Min-Gyeong},
+           giveni={M\bibinithyphendelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39ca1b4c9e9f11db612227ff32b66e8e}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={In-Ji},
+           giveni={I\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a8ae40be246a2b0cef659181e39485ef}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Namhee},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=455bc785af699d65bc06db9c1ec38808}{%
+           family={Kwon},
+           familyi={K\bibinitperiod},
+           given={Oh-Sang},
+           giveni={O\bibinithyphendelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80203dd50a8fcb0137edf1ecb209e927}{%
+           family={Jang},
+           familyi={J\bibinitperiod},
+           given={Junghye},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{532ff68dcebb6f18ab8dd5ae1e2a8496}
+      \strng{fullhash}{2096b29b3875756600f0e1f34a1a3e0f}
+      \strng{fullhashraw}{2096b29b3875756600f0e1f34a1a3e0f}
+      \strng{bibnamehash}{2096b29b3875756600f0e1f34a1a3e0f}
+      \strng{authorbibnamehash}{2096b29b3875756600f0e1f34a1a3e0f}
+      \strng{authornamehash}{532ff68dcebb6f18ab8dd5ae1e2a8496}
+      \strng{authorfullhash}{2096b29b3875756600f0e1f34a1a3e0f}
+      \strng{authorfullhashraw}{2096b29b3875756600f0e1f34a1a3e0f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scientific Data}
+      \field{number}{1}
+      \field{title}{EEG-Audio-Video Dataset for Emotion Recognition in Conversational Contexts}
+      \field{volume}{11}
+      \field{year}{2024}
+      \field{pages}{1026}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41597-024-03838-4
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s41597-024-03838-4
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s41597-024-03838-4
+      \endverb
+    \endentry
+    \entry{mueller2020}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d8f5386cdc84513cd2889cfcb94e4a8f}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={V.\bibnamedelimi C.},
+           giveni={V\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d8f5386cdc84513cd2889cfcb94e4a8f}
+      \strng{fullhash}{d8f5386cdc84513cd2889cfcb94e4a8f}
+      \strng{fullhashraw}{d8f5386cdc84513cd2889cfcb94e4a8f}
+      \strng{bibnamehash}{d8f5386cdc84513cd2889cfcb94e4a8f}
+      \strng{authorbibnamehash}{d8f5386cdc84513cd2889cfcb94e4a8f}
+      \strng{authornamehash}{d8f5386cdc84513cd2889cfcb94e4a8f}
+      \strng{authorfullhash}{d8f5386cdc84513cd2889cfcb94e4a8f}
+      \strng{authorfullhashraw}{d8f5386cdc84513cd2889cfcb94e4a8f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-04-27}
+      \field{title}{The Ethics of Artificial Intelligence and Robotics}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://plato.stanford.edu/entries/ethics-ai/
+      \endverb
+      \verb{url}
+      \verb https://plato.stanford.edu/entries/ethics-ai/
+      \endverb
+    \endentry
+    \entry{pessoa2013}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4103192b17c3a2276daeca65cd4dce19}{%
+           family={Pessoa},
+           familyi={P\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4103192b17c3a2276daeca65cd4dce19}
+      \strng{fullhash}{4103192b17c3a2276daeca65cd4dce19}
+      \strng{fullhashraw}{4103192b17c3a2276daeca65cd4dce19}
+      \strng{bibnamehash}{4103192b17c3a2276daeca65cd4dce19}
+      \strng{authorbibnamehash}{4103192b17c3a2276daeca65cd4dce19}
+      \strng{authornamehash}{4103192b17c3a2276daeca65cd4dce19}
+      \strng{authorfullhash}{4103192b17c3a2276daeca65cd4dce19}
+      \strng{authorfullhashraw}{4103192b17c3a2276daeca65cd4dce19}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Reviews Neuroscience}
+      \field{number}{7}
+      \field{title}{Emotion and Cognition: From Mapping Brain Functions to Their Interactions}
+      \field{volume}{14}
+      \field{year}{2013}
+      \field{pages}{473\bibrangedash 486}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1038/nrn3476
+      \endverb
+    \endentry
+    \entry{picard1997}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0416032fb587ef10e907f9641934d99a}{%
+           family={Picard},
+           familyi={P\bibinitperiod},
+           given={R.\bibnamedelimi W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{0416032fb587ef10e907f9641934d99a}
+      \strng{fullhash}{0416032fb587ef10e907f9641934d99a}
+      \strng{fullhashraw}{0416032fb587ef10e907f9641934d99a}
+      \strng{bibnamehash}{0416032fb587ef10e907f9641934d99a}
+      \strng{authorbibnamehash}{0416032fb587ef10e907f9641934d99a}
+      \strng{authornamehash}{0416032fb587ef10e907f9641934d99a}
+      \strng{authorfullhash}{0416032fb587ef10e907f9641934d99a}
+      \strng{authorfullhashraw}{0416032fb587ef10e907f9641934d99a}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Affective Computing}
+      \field{year}{1997}
+    \endentry
+    \entry{poria2015}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3187ff78cd216392d9c0beafc4876251}{%
+           family={Poria},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24fe910944f1b7a2547d238e9d52ae6b}{%
+           family={Cambria},
+           familyi={C\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b484f321538e4237f3b4cdf6216ac59a}{%
+           family={Gelbukh},
+           familyi={G\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a9784b7c9364d0875739540e00af9523}
+      \strng{fullhash}{4430d7c898c24aa48aeb0bc3c72926e4}
+      \strng{fullhashraw}{4430d7c898c24aa48aeb0bc3c72926e4}
+      \strng{bibnamehash}{4430d7c898c24aa48aeb0bc3c72926e4}
+      \strng{authorbibnamehash}{4430d7c898c24aa48aeb0bc3c72926e4}
+      \strng{authornamehash}{a9784b7c9364d0875739540e00af9523}
+      \strng{authorfullhash}{4430d7c898c24aa48aeb0bc3c72926e4}
+      \strng{authorfullhashraw}{4430d7c898c24aa48aeb0bc3c72926e4}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Information Fusion}
+      \field{title}{Multimodal Sentiment Analysis: A Survey and Comparison}
+      \field{volume}{28}
+      \field{year}{2015}
+      \field{pages}{87\bibrangedash 93}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.inffus.2014.07.001
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

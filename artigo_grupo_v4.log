@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  25 NOV 2024 16:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  25 NOV 2024 16:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./artigo_indiv_v7.tex
-(artigo_indiv_v7.tex
+**./artigo_grupo_v4.tex
+(artigo_grupo_v4.tex
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
 (C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
@@ -47,20 +47,15 @@ TeX and XeLaTeX
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
-df
-Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: Hyphen rules for 'canadian' set to \l@english
-(babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 108.
+(C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\portugue
+se.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Making " an active character on input line 143.
 ))
-(C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
--english.tex
-Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 11.
+(C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/pt\babel
+-portuguese.tex
+Package babel Info: Importing font and identification data for portuguese
+(babel)             from babel-pt.ini. Reported on input line 11.
 )
 (C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
@@ -838,7 +833,7 @@ Package: titlesec 2023/10/27 v2.16 Sectioning titles
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'english'.
+Package csquotes Info: Redefining alias 'default' -> 'portuguese'.
 LaTeX Font Info:    Trying to load font information for OT1+ntxtlf on input lin
 e 66.
  (C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ot1ntxtlf.fd
@@ -847,8 +842,8 @@ File: ot1ntxtlf.fd 2021/05/24 v1.0 font definition file for OT1/ntx/tlf
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 66.
 
-(artigo_indiv_v7.aux)
-\openout1 = `artigo_indiv_v7.aux'.
+(artigo_grupo_v4.aux)
+\openout1 = `artigo_grupo_v4.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/ntxmi/m/it on input line 66.
 LaTeX Font Info:    Trying to load font information for OML+ntxmi on input line
@@ -896,46 +891,35 @@ e 66.
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
 LaTeX Font Info:    ... okay on input line 66.
-Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
-Package biblatex Info: ... file 'english-apa.lbx' found.
+Package biblatex Info: Trying to load language 'portuguese' -> 'portuguese-apa'
+...
+Package biblatex Info: ... file 'portuguese-apa.lbx' found.
 
-(C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\english-ap
-a.lbx
-File: english-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
+(C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\portuguese
+-apa.lbx
+File: portuguese-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
+Package biblatex Info: Trying to load language 'portuguese'...
+Package biblatex Info: ... file 'portuguese.lbx' found.
 
-(C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
-x
-File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+(C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\portuguese
+.lbx
+File: portuguese.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 )
-Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
-Package biblatex Info: ... file 'american-apa.lbx' found.
+Package biblatex Info: Trying to load language 'portuguese'...
+Package biblatex Info: ... file 'portuguese.lbx' found.
 
-(C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\american-a
-pa.lbx
-File: american-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
-Package biblatex Info: Trying to load language 'american'...
-Package biblatex Info: ... file 'american.lbx' found.
-
-(C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\american.l
-bx
-File: american.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
-
-(C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
-x
-File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
-))))
+(C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\portuguese
+.lbx
+File: portuguese.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
+))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `artigo_indiv_v7.bcf'.
+\openout3 = `artigo_grupo_v4.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'artigo_indiv_v7.bbl' found.
- (artigo_indiv_v7.bbl)
+Package biblatex Info: ... file 'artigo_grupo_v4.bbl' found.
+ (artigo_grupo_v4.bbl)
 Package biblatex Info: Reference section=0 on input line 66.
 Package biblatex Info: Reference segment=0 on input line 66.
 
@@ -967,9 +951,9 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 LaTeX Info: Command `\dddot' is already robust on input line 66.
 LaTeX Info: Command `\ddddot' is already robust on input line 66.
 Package hyperref Info: Link coloring OFF on input line 66.
- (artigo_indiv_v7.out) (artigo_indiv_v7.out)
+ (artigo_grupo_v4.out) (artigo_grupo_v4.out)
 \@outlinefile=\write4
-\openout4 = `artigo_indiv_v7.out'.
+\openout4 = `artigo_grupo_v4.out'.
 
 
 *geometry* driver: auto-detecting
@@ -1008,12 +992,12 @@ Package hyperref Info: Link coloring OFF on input line 66.
 
 \c@mv@tabular=\count457
 \c@mv@boldtabular=\count458
-<iscte.png, id=50, 335.19968pt x 215.62135pt>
+<iscte.png, id=54, 335.19968pt x 215.62135pt>
 File: iscte.png Graphic file (type png)
 <use iscte.png>
 Package pdftex.def Info: iscte.png  used on input line 74.
 (pdftex.def)             Requested size: 182.09486pt x 117.13786pt.
-<ista.png, id=51, 2830.575pt x 1675.25874pt>
+<ista.png, id=55, 2830.575pt x 1675.25874pt>
 File: ista.png Graphic file (type png)
 <use ista.png>
 Package pdftex.def Info: ista.png  used on input line 76.
@@ -1048,7 +1032,7 @@ l.108 	\newpage
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
 (Font)              scaled to size 14.0pt on input line 114.
 LaTeX Font Info:    Font shape `OT1/ntxtlf/b/n' will be
-(Font)              scaled to size 12.0pt on input line 121.
+(Font)              scaled to size 12.0pt on input line 125.
 
 
 [1]
@@ -1058,14 +1042,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.142 	
+l.150 	
         [1]
 
 [2]
-
-[3]
-
-[4]
 LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input lin
 e 198.
  (C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ts1ntxtlf.fd
@@ -1075,117 +1055,125 @@ LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
 (Font)              scaled to size 12.0pt on input line 198.
 
 
-[5{C:/Users/lrsin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.
-enc}]
+[3]
+Overfull \hbox (9.92189pt too wide) in paragraph at lines 209--210
+[]\OT1/ntxtlf/b/n/12 Intera[][]ao So-cial Avan[]ada: \OT1/ntxtlf/m/n/12 De-sen-
+vol-ver as-sis-ten-tes vir-tu-ais e rob[]os so-ci-ais mais emp[]aticos
+ []
 
-[6]
+
+Overfull \hbox (28.30591pt too wide) in paragraph at lines 216--217
+[]\OT1/ntxtlf/b/n/12 Desenvolvimento de Fra-meworks []Eticos: \OT1/ntxtlf/m/n/1
+2 In-te-grar princ[]^^Ppios []eticos no de-sign e implementa[][]ao
+ []
+
 LaTeX Font Info:    Font shape `OT1/ntxtlf/m/it' will be
 (Font)              scaled to size 12.0pt on input line 219.
+
+
+[4{C:/Users/lrsin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.
+enc}]
+
+[5]
 LaTeX Font Info:    Trying to load font information for OT1+minntx on input lin
-e 219.
+e 238.
  (C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/latex/newtx\ot1minntx.fd
 File: ot1minntx.fd 2023/09/09 v1.1 font definition file for OT1/minntx
 )
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 219.
+(Font)              scaled to size 12.0pt on input line 238.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 219.
+(Font)              scaled to size 8.8pt on input line 238.
 LaTeX Font Info:    Font shape `OT1/minntx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 219.
+(Font)              scaled to size 6.6pt on input line 238.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 12.0pt on input line 219.
+(Font)              scaled to size 12.0pt on input line 238.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 8.8pt on input line 219.
+(Font)              scaled to size 8.8pt on input line 238.
 LaTeX Font Info:    Font shape `OML/ntxmi/m/it' will be
-(Font)              scaled to size 6.6pt on input line 219.
+(Font)              scaled to size 6.6pt on input line 238.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 12.0pt on input line 219.
+(Font)              scaled to size 12.0pt on input line 238.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 8.8pt on input line 219.
+(Font)              scaled to size 8.8pt on input line 238.
 LaTeX Font Info:    Font shape `LMS/ntxsy/m/n' will be
-(Font)              scaled to size 6.6pt on input line 219.
+(Font)              scaled to size 6.6pt on input line 238.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 12.0pt on input line 219.
+(Font)              scaled to size 12.0pt on input line 238.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 8.8pt on input line 219.
+(Font)              scaled to size 8.8pt on input line 238.
 LaTeX Font Info:    Font shape `LMX/ntxexx/m/n' will be
-(Font)              scaled to size 6.6pt on input line 219.
+(Font)              scaled to size 6.6pt on input line 238.
 LaTeX Font Info:    Trying to load font information for U+ntxmia on input line 
-219.
+238.
 (C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxmia.fd
 File: untxmia.fd 2024/04/09 Fontinst v1.933 font definitions for U/ntxmia.
 )
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 12.0pt on input line 219.
+(Font)              scaled to size 12.0pt on input line 238.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 8.8pt on input line 219.
+(Font)              scaled to size 8.8pt on input line 238.
 LaTeX Font Info:    Font shape `U/ntxmia/m/it' will be
-(Font)              scaled to size 6.6pt on input line 219.
+(Font)              scaled to size 6.6pt on input line 238.
 LaTeX Font Info:    Trying to load font information for U+ntxsym on input line 
-219.
+238.
 
 (C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsym.fd
 File: untxsym.fd 2023/08/16 Fontinst v1.933 font definitions for U/ntxsym.
 )
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 12.0pt on input line 219.
+(Font)              scaled to size 12.0pt on input line 238.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 8.8pt on input line 219.
+(Font)              scaled to size 8.8pt on input line 238.
 LaTeX Font Info:    Font shape `U/ntxsym/m/n' will be
-(Font)              scaled to size 6.6pt on input line 219.
+(Font)              scaled to size 6.6pt on input line 238.
 LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line 
-219.
+238.
 
 (C:\Users\lrsin\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 12.0pt on input line 219.
+(Font)              scaled to size 12.0pt on input line 238.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 8.8pt on input line 219.
+(Font)              scaled to size 8.8pt on input line 238.
 LaTeX Font Info:    Font shape `U/ntxsyc/m/n' will be
-(Font)              scaled to size 6.6pt on input line 219.
+(Font)              scaled to size 6.6pt on input line 238.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 12.0pt on input line 219.
+(Font)              scaled to size 12.0pt on input line 238.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 8.8pt on input line 219.
+(Font)              scaled to size 8.8pt on input line 238.
 LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
-(Font)              scaled to size 6.6pt on input line 219.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 8.8pt on input line 219.
-LaTeX Font Info:    Font shape `OT1/ntxtlf/m/n' will be
-(Font)              scaled to size 6.6pt on input line 219.
+(Font)              scaled to size 6.6pt on input line 238.
 
 
-[7]
-
-[8] (artigo_indiv_v7.aux)
+[6] (artigo_grupo_v4.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2020/03/25>
  ***********
-Package rerunfilecheck Info: File `artigo_indiv_v7.out' has not changed.
-(rerunfilecheck)             Checksum: 58CEBD184EC9B0B63EBFEBF8F0DDBFC0;3526.
-Package logreq Info: Writing requests to 'artigo_indiv_v7.run.xml'.
-\openout1 = `artigo_indiv_v7.run.xml'.
+Package rerunfilecheck Info: File `artigo_grupo_v4.out' has not changed.
+(rerunfilecheck)             Checksum: 8B8724907DF2BF4D3172041AC2AA6C65;2084.
+Package logreq Info: Writing requests to 'artigo_grupo_v4.run.xml'.
+\openout1 = `artigo_grupo_v4.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24174 strings out of 473682
- 411743 string characters out of 5719215
- 1346181 words of memory out of 5000000
- 46912 multiletter control sequences out of 15000+600000
+ 23939 strings out of 473682
+ 406344 string characters out of 5719215
+ 1316608 words of memory out of 5000000
+ 46691 multiletter control sequences out of 15000+600000
  585037 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 69i,12n,107p,1270b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,11n,81p,775b,2899s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lrsin/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/qtm
 r.pfb><C:/Users/lrsin/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/zt
 mb.pfb><C:/Users/lrsin/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/z
 tmr.pfb><C:/Users/lrsin/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtx/
 ztmri.pfb>
-Output written on artigo_indiv_v7.pdf (11 pages, 275423 bytes).
+Output written on artigo_grupo_v4.pdf (9 pages, 267272 bytes).
 PDF statistics:
- 193 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 173 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 115 words of extra memory for PDF output out of 10000 (max. 10000000)
 

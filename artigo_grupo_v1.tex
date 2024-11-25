@@ -1,0 +1,148 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[portuguese]{babel}
+\usepackage[style=apa, backend=biber]{biblatex}
+\addbibresource{biblio.bib} % Nome do arquivo de bibliografia
+\usepackage{csquotes} % Necessário para citações com babel
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{indentfirst} % Pacote para indentar o primeiro parágrafo
+\usepackage{newtxtext,newtxmath} % Usa fontes Times modernas
+\usepackage{xcolor} % Pacote para cores
+\usepackage{fancyhdr} % Para personalização do rodapé
+\usepackage{titlesec} % Para personalizar títulos e subtítulos
+
+% Configuração de Margens e Espaçamento
+\geometry{a4paper, margin=2.5cm}
+\setstretch{1.5}
+
+% Configuração de Tamanhos de Fonte e Espaçamento para Seções
+\titleformat{\section} % Títulos principais numerados
+{\normalfont\fontsize{14}{17}\bfseries}{\thesection}{1em}{}
+\titleformat*{\section} % Títulos principais não numerados
+{\normalfont\fontsize{14}{17}\bfseries}
+\titleformat{\subsection} % Subtítulos
+{\normalfont\fontsize{12}{15}\bfseries}{\thesubsection}{1em}{}
+
+% Ajuste de Espaçamento para Seções
+\titlespacing{\section}
+{0pt}{1.5em}{1em}
+\titlespacing*{\section}
+{0pt}{1.5em}{1em}
+\titlespacing{\subsection}
+{0pt}{1.2em}{0.8em}
+
+% Configuração de Rodapé com Numeração
+\pagestyle{fancy}
+\fancyhf{} % Limpa cabeçalho e rodapé
+\fancyfoot[R]{\thepage} % Numeração no canto inferior direito
+\renewcommand{\headrulewidth}{0pt} % Remove linha do cabeçalho
+\renewcommand{\footrulewidth}{0pt} % Remove linha do rodapé
+
+% Configuração de Cores
+\definecolor{barraazul}{RGB}{0, 51, 153}
+
+% Numeração das seções sem números iniciais adicionais
+\renewcommand{\thesection}{\arabic{section}}
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}}
+\renewcommand{\thesubsubsection}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
+
+% Redefinição do Cabeçalho da Bibliografia
+\defbibheading{bibliography}{
+	\section*{Referências Bibliográficas}
+	\addcontentsline{toc}{section}{Referências Bibliográficas}
+	\thispagestyle{fancy} % Garante que o rodapé seja consistente
+}
+
+% Garante que o estilo de página seja 'fancy' na bibliografia
+\AtBeginBibliography{\pagestyle{fancy}}
+
+% Ajuste para indentação de parágrafos
+\setlength{\parindent}{1.25cm}
+
+\begin{document}
+	
+	% Capa
+	\begin{titlepage}
+		\centering
+		\vspace*{-2cm} % Reduz a margem superior da página de título
+		
+		% Ajusta as imagens para remover espaçamentos internos (se houver)
+		\raisebox{-0.5\height}{\includegraphics[width=0.4\textwidth]{iscte.png}}%
+		\hfill%
+		\raisebox{-0.46\height}{\includegraphics[width=0.4\textwidth]{ista.png}}\\[0.5cm]
+		
+		\noindent
+		{\color{barraazul}\rule{\textwidth}{1mm}} % Barra azul horizontal
+		\\[1cm]
+		
+		{\LARGE  \textbf{Análise de Sentimentos em IA} \par}
+		\vspace{1.5cm}
+		
+		{\Large \textbf{Mestrado em Inteligência Artificial}} \par
+		\vspace{3cm}
+		
+		{\large \textbf{Aluno: Luís Ricardo Silva Inácio}} \par
+		{\large \textbf{Aluno: João Costa}} \par
+		{\large \textbf{Aluno: Diogo}} \par
+
+		\vspace{3cm}
+		
+		{\large \textbf{Unidade Curricular: Cognição e Emoção}} \par
+		\vspace{1cm}
+		
+		{\large \textbf{Professora: Doutora Cristiane da Anunciação Souza}} \par
+		\vfill
+		
+		{\large \textbf{Data de Entrega: 29 de novembro de 2024}} \par
+	\end{titlepage}
+	
+	
+	% Costas da Capa (Em branco)
+	\newpage
+	\thispagestyle{empty}
+	\mbox{}
+	\newpage
+	
+	% Configuração para numeração romana
+	\pagenumbering{roman}
+	
+	% Resumo
+	\section*{Resumo}
+	\addcontentsline{toc}{section}{Resumo}
+	
+	Este artigo analisa de forma abrangente o papel das emoções no uso de heurísticas e como a 
+	
+	\vspace{4em}
+	
+	\noindent\textbf{Palavras-Chave:} \normalsize{Emoções, }
+	
+	\newpage
+	
+	% Configuração para numeração arábica
+	\pagenumbering{arabic}
+	
+	% Introdução
+	\section{Introdução}
+	
+	As emoções desempenham um papel fundamental na forma como os indivíduos processam informações 
+	
+	\section{O Papel das Emoções nas Heurísticas e a Complexidade da Linguagem na IA Emocional}
+	
+	\subsection{Heurísticas, Emoções e Linguagem: Uma Introdução Teórica}
+	
+	\textcite{kahneman1974} definiram heurísticas como mecanismos que permitem aos indivíduos lidar com problemas de forma eficiente, utilizando uma quantidade limitada de recursos 
+	
+	\section{Conclusão}
+	
+	As emoções 
+	
+	\newpage
+	
+	% Referências
+	\printbibliography
+	
+\end{document}

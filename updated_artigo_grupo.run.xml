@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>artigo_indiv_v7.bcf</file>
+      <file>updated_artigo_grupo.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>artigo_indiv_v7.bbl</file>
+      <file>updated_artigo_grupo.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -58,32 +58,30 @@
       <file>apa.bbx</file>
       <file>apa.cbx</file>
       <file>biblatex.cfg</file>
-      <file>english.lbx</file>
-      <file>american.lbx</file>
-      <file>american-apa.lbx</file>
-      <file>english-apa.lbx</file>
+      <file>portuguese.lbx</file>
+      <file>portuguese-apa.lbx</file>
     </requires>
   </internal>
   <external package="biblatex" priority="5" active="0">
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>artigo_indiv_v7</infile>
+      <infile>updated_artigo_grupo</infile>
     </cmdline>
     <input>
-      <file>artigo_indiv_v7.bcf</file>
+      <file>updated_artigo_grupo.bcf</file>
     </input>
     <output>
-      <file>artigo_indiv_v7.bbl</file>
+      <file>updated_artigo_grupo.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>artigo_indiv_v7.bbl</file>
+      <file>updated_artigo_grupo.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>artigo_indiv_v7.bcf</file>
+      <file>updated_artigo_grupo.bcf</file>
     </requires>
     <requires type="editable">
-      <file>biblio.bib</file>
+      <file>refs.bib</file>
     </requires>
   </external>
 </requests>
