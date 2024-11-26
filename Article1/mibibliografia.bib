@@ -1,0 +1,22 @@
+% To find publishing date of a website try this: (https://academia.stackexchange.com/questions/73612/citation-of-a-website-how-to-determine-the-year)
+% run this:
+% javascript:void((function(){var toRm=document.getElementById('showTagsWithDate');if(toRm){document.body.removeChild(toRm);return;}document.body.insertAdjacentHTML('afterbegin','<div id="showTagsWithDate" style="background-color:white;color:black;">Tags with a date in YYYY-[M]M-[D]D format; or in English (US, or non-US format):<ul/></div>');var myul=document.body.firstChild.lastChild;var tags=[];function addMoreDates(reg){var addTags=document.documentElement.innerHTML.match(reg);if(addTags){addTags.forEach(function(newTag){if((newTag.indexOf('<a ')===0)||(newTag.indexOf('<img '))===0){return;}if(tags.indexOf(newTag) === -1){tags.push(newTag);}});}}addMoreDates(/<[A-Z][^>]*\D(20\d\d|1\d\d\d)[\s\/\-.,]\s*([1-9]|0[1-9]|[1][012])[\s\/\-,.]\s*([1-9]|0[1-9]|[12]\d|3[01])\s*(st|nd|rd|th){0,1}\D[^>]*>/img);addMoreDates(/<[A-Z][^>]*\b([1-9]|0[1-9]|[12]\d|3[01])(st|nd|rd|th){0,1}[\/\-\s]\s*(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[\s,.\/\-][\s,.\/\-]?\s*(20\d\d|1\d\d\d)\b[^>]*>/img);addMoreDates(/<[A-Z][^>]*\b(january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec)[\s,.\/\-][\s,.\/\-]?\s*([1-9]|0[1-9]|[12]\d|3[01])(st|nd|rd|th){0,1}[\s,.\-]+(20\d\d|1\d\d\d)\b[^>]*>/img);if(tags.length===0){tags=['No tags with dates.'];}tags.forEach(function(tag){myul.appendChild(document.createElement('LI')).appendChild(document.createTextNode(tag));});document.body.firstChild.appendChild(document.createElement('BR'));})())
+% if it fails you may find the earliest appearence of the site in: https://archive.org/
+% otherwise find the latest modification change or put the current year
+
+% To save an archive of the site you can use this:
+% javascript:void(window.open('https://web.archive.org/save/'+location.href))
+
+@book{iscac,
+	address = {New York},
+	edition = {1st ed},
+	series = {A {Norton} critical edition},
+	title = {Don {Quijote}: a new translation, backgrounds and contexts, criticism},
+	isbn = {9780393972818},
+	shorttitle = {Don {Quijote}},
+	language = {eng},
+	publisher = {W.W. Norton},
+	author = {Cervantes Saavedra, Miguel de and Raffel, Burton and Wilson, Diana de Armas},
+	year = {1999},
+	keywords = {Cervantes Saavedra, Miguel de, Don Quixote},
+}

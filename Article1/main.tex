@@ -1,0 +1,47 @@
+\documentclass[stu, 12pt, letterpaper, donotrepeattitle,floatsintext, natbib]{apa7}
+
+\usepackage{preamble} % Load your custom preamble
+
+\input{src/cover} % Title page setup
+
+% Begin Document
+\begin{document}   
+   \maketitle
+
+   \renewcommand\contentsname{\large Table of Contents}
+   \tableofcontents
+   \setcounter{tocdepth}{2}
+   \newpage
+
+       % Figures
+   %\renewcommand{\listfigurename}{\large List of Figures}
+   %\listoffigures
+   %\newpage
+       % Tables
+   %\renewcommand{\listtablename}{\large List of Tables}
+   %\listoftables
+   %\newpage
+   
+   % Body
+   % \pagenumbering{arabic} % same throughout
+
+   % Main content starts here
+
+ 
+   \section*{\papertitle} % duplicated title if needed
+
+   \input{src/introduction}
+   \input{src/drawbacksOfCurrentSystem}
+   \input{src/alternativeSystems}
+   \input{src/probabilities}
+   \input{src/technicalConcerns}
+   \input{src/conclusion}
+
+   % References
+   \newpage
+   \bibliography{mibibliografia}
+
+   % Appendices (if any)
+   \appendix
+
+\end{document}
