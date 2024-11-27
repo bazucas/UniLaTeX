@@ -1,0 +1,21 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'artigo_indiv_v8.blg'
+[115] biber-MSWIN64:340> INFO - === 
+[152] Biber.pm:420> INFO - Reading 'artigo_indiv_v8.bcf'
+[280] Biber.pm:994> INFO - Found 14 citekeys in bib section 0
+[301] Biber.pm:4463> INFO - Processing section 0
+[314] Biber.pm:4654> INFO - Looking for bibtex file 'biblio.bib' for section 0
+[363] bibtex.pm:1713> INFO - LaTeX decoding ...
+[397] bibtex.pm:1519> INFO - Found BibTeX data source 'biblio.bib'
+[508] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[508] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[508] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'pt-PT'
+[508] Biber.pm:4289> INFO - No sort tailoring available for locale 'pt-PT'
+[542] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[542] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[542] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'pt-PT'
+[542] Biber.pm:4289> INFO - No sort tailoring available for locale 'pt-PT'
+[561] bbl.pm:676> INFO - Writing 'artigo_indiv_v8.bbl' with encoding 'UTF-8'
+[583] bbl.pm:779> INFO - Output to artigo_indiv_v8.bbl
+[584] Biber.pm:131> WARN - legacy month field 'Feb' in entry 'pessoa2008' is not an integer - this will probably not sort properly.
+[584] Biber.pm:133> INFO - WARNINGS: 1

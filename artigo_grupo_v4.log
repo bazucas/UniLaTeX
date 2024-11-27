@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  25 NOV 2024 16:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.19)  27 NOV 2024 11:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1161,7 +1161,7 @@ Package logreq Info: Writing requests to 'artigo_grupo_v4.run.xml'.
 Here is how much of TeX's memory you used:
  23933 strings out of 473682
  406278 string characters out of 5719215
- 1315586 words of memory out of 5000000
+ 1315584 words of memory out of 5000000
  46685 multiletter control sequences out of 15000+600000
  585037 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
