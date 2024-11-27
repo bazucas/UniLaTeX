@@ -1,0 +1,19 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'artigo_individual_final_v2.blg'
+[128] biber-MSWIN64:340> INFO - === 
+[168] Biber.pm:420> INFO - Reading 'artigo_individual_final_v2.bcf'
+[313] Biber.pm:994> INFO - Found 8 citekeys in bib section 0
+[341] Biber.pm:4463> INFO - Processing section 0
+[360] Biber.pm:4654> INFO - Looking for bibtex file 'individual.bib' for section 0
+[409] bibtex.pm:1713> INFO - LaTeX decoding ...
+[432] bibtex.pm:1519> INFO - Found BibTeX data source 'individual.bib'
+[510] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[510] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[510] Biber.pm:4283> INFO - Sorting list 'apa/apasortcite//global/global/global' of type 'entry' with template 'apa' and locale 'pt-PT'
+[511] Biber.pm:4289> INFO - No sort tailoring available for locale 'pt-PT'
+[531] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[532] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[532] Biber.pm:4283> INFO - Sorting list 'apa/global//global/global/global' of type 'entry' with template 'apa' and locale 'pt-PT'
+[532] Biber.pm:4289> INFO - No sort tailoring available for locale 'pt-PT'
+[545] bbl.pm:676> INFO - Writing 'artigo_individual_final_v2.bbl' with encoding 'UTF-8'
+[561] bbl.pm:779> INFO - Output to artigo_individual_final_v2.bbl

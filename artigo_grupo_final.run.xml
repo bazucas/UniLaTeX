@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>artigo_indiv_v8.bcf</file>
+      <file>artigo_grupo_final.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>artigo_indiv_v8.bbl</file>
+      <file>artigo_grupo_final.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -66,22 +66,22 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>artigo_indiv_v8</infile>
+      <infile>artigo_grupo_final</infile>
     </cmdline>
     <input>
-      <file>artigo_indiv_v8.bcf</file>
+      <file>artigo_grupo_final.bcf</file>
     </input>
     <output>
-      <file>artigo_indiv_v8.bbl</file>
+      <file>artigo_grupo_final.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>artigo_indiv_v8.bbl</file>
+      <file>artigo_grupo_final.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>artigo_indiv_v8.bcf</file>
+      <file>artigo_grupo_final.bcf</file>
     </requires>
     <requires type="editable">
-      <file>individual.bib</file>
+      <file>merged.bib</file>
     </requires>
   </external>
 </requests>

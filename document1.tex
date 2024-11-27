@@ -1,19 +1,27 @@
 \documentclass[a4paper,12pt]{report}
+
+% Codificação e linguagem
 \usepackage[utf8]{inputenc}
 \usepackage[portuguese]{babel}
-\usepackage[style=apa, backend=biber]{biblatex}
-\addbibresource{refs.bib} % Nome do arquivo de bibliografia
-\usepackage{csquotes} % Necessário para citações com babel
-\usepackage{graphicx}
-\usepackage{amsmath}
-\usepackage{hyperref}
+
+% Fontes
+\usepackage{newtxtext,newtxmath} % Usa fontes Times modernas
+
+% Pacotes de formatação e layout
 \usepackage{geometry}
 \usepackage{setspace}
-\usepackage{indentfirst} % Pacote para indentar o primeiro parágrafo
-\usepackage{newtxtext,newtxmath} % Usa fontes Times modernas
+\usepackage{indentfirst} % Indentar o primeiro parágrafo
 \usepackage{xcolor} % Pacote para cores
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref} % Carregar hyperref antes de biblatex
 \usepackage{fancyhdr} % Para personalização do rodapé
 \usepackage{titlesec} % Para personalizar títulos e subtítulos
+
+% Pacotes de citação e bibliografia
+\usepackage{csquotes} % Necessário para citações com babel
+\usepackage[style=apa, backend=biber]{biblatex}
+\addbibresource{biblio.bib} % Nome do arquivo de bibliografia
 
 % Configuração de Margens e Espaçamento
 \geometry{a4paper, margin=2.5cm}
@@ -51,7 +59,7 @@
 \renewcommand{\thesubsubsection}{\arabic{section}.\arabic{subsection}.\arabic{subsubsection}}
 
 % Redefinição do Cabeçalho da Bibliografia
-\defbibheading{bibliography}{
+\DeclareBibliographyHeading{bibliography}{
 	\section*{Referências Bibliográficas}
 	\addcontentsline{toc}{section}{Referências Bibliográficas}
 	\thispagestyle{fancy} % Garante que o rodapé seja consistente
@@ -236,5 +244,4 @@
 	
 	% Referências
 	\printbibliography
-	
 \end{document}

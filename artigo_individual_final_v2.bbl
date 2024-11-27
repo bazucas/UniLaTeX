@@ -1,0 +1,717 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{chomsky1965}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=28167c0b3800bc5cfb686676277005b0}{%
+           family={Chomsky},
+           familyi={C\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{fullhash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{fullhashraw}{28167c0b3800bc5cfb686676277005b0}
+      \strng{bibnamehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authorbibnamehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authornamehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authorfullhash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authorfullhashraw}{28167c0b3800bc5cfb686676277005b0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Aspects of the theory of syntax}
+      \field{year}{1965}
+    \endentry
+    \entry{gigerenzer2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b48d2c7ac3f28cdcd52b92c3c2953a61}{%
+           family={Gigerenzer},
+           familyi={G\bibinitperiod},
+           given={Gerd},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4ee24058ffe2d14df3188027e17c696}{%
+           family={Brighton},
+           familyi={B\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{71368eec16817037735ab897ec8bb50d}
+      \strng{fullhash}{71368eec16817037735ab897ec8bb50d}
+      \strng{fullhashraw}{71368eec16817037735ab897ec8bb50d}
+      \strng{bibnamehash}{71368eec16817037735ab897ec8bb50d}
+      \strng{authorbibnamehash}{71368eec16817037735ab897ec8bb50d}
+      \strng{authornamehash}{71368eec16817037735ab897ec8bb50d}
+      \strng{authorfullhash}{71368eec16817037735ab897ec8bb50d}
+      \strng{authorfullhashraw}{71368eec16817037735ab897ec8bb50d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Heuristics are efficient cognitive processes that ignore information. In contrast to the widely held view that less processing reduces accuracy, the study of heuristics shows that less information, computation, and time can in fact improve accuracy. We review the major progress made so far: (a) the discovery of less-is-more effects; (b) the study of the ecological rationality of heuristics, which examines in which environments a given strategy succeeds or fails, and why; (c) an advancement from vague labels to computational models of heuristics; (d) the development of a systematic theory of heuristics that identifies their building blocks and the evolved capacities they exploit, and views the cognitive system as relying on an “adaptive toolbox;” and (e) the development of an empirical methodology that accounts for individual differences, conducts competitive tests, and has provided evidence for people’s adaptive use of heuristics. Homo heuristicus has a biased mind and ignores part of the available information, yet a biased mind can handle uncertainty more efficiently and robustly than an unbiased mind relying on more resource-intensive and general-purpose processing strategies.}
+      \field{journaltitle}{Topics in Cognitive Science}
+      \field{number}{1}
+      \field{title}{Homo Heuristicus: Why Biased Minds Make Better Inferences}
+      \field{volume}{1}
+      \field{year}{2009}
+      \field{pages}{107\bibrangedash 143}
+      \range{pages}{37}
+      \verb{doi}
+      \verb https://doi.org/10.1111/j.1756-8765.2008.01006.x
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1756-8765.2008.01006.x
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1756-8765.2008.01006.x
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1756-8765.2008.01006.x
+      \endverb
+      \keyw{Heuristics,Decision-making,Inferences,Rationality,Uncertainity,Induction}
+    \endentry
+    \entry{ieee2019}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e2dd85d5ed4ff94326a8b5cb5fb21ab4}{%
+           family={{Institute of Electrical and Electronics Engineers}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{fullhash}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{fullhashraw}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{bibnamehash}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{authorbibnamehash}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{authornamehash}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{authorfullhash}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{authorfullhashraw}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ethically aligned design: A vision for prioritizing human well-being with autonomous and intelligent systems (1st ed.)}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://standards.ieee.org/content/dam/ieee-standards/standards/web/documents/other/ead1e.pdf
+      \endverb
+      \verb{url}
+      \verb https://standards.ieee.org/content/dam/ieee-standards/standards/web/documents/other/ead1e.pdf
+      \endverb
+    \endentry
+    \entry{isen2001}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=90851887e21c461d2ab602974251b206}{%
+           family={Isen},
+           familyi={I\bibinitperiod},
+           given={Alice\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90851887e21c461d2ab602974251b206}
+      \strng{fullhash}{90851887e21c461d2ab602974251b206}
+      \strng{fullhashraw}{90851887e21c461d2ab602974251b206}
+      \strng{bibnamehash}{90851887e21c461d2ab602974251b206}
+      \strng{authorbibnamehash}{90851887e21c461d2ab602974251b206}
+      \strng{authornamehash}{90851887e21c461d2ab602974251b206}
+      \strng{authorfullhash}{90851887e21c461d2ab602974251b206}
+      \strng{authorfullhashraw}{90851887e21c461d2ab602974251b206}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article reviews evidence indicating that, in most circumstances, positive affect enhances problem solving and decision making, leading to cognitive processing that is not only flexible, innovative, and creative, but also thorough and efficient. These results have implications regarding consumers’ potential reactions to affect generated by ads, products, consumption situations, and service encounters. These cognitive effects of positive affect are considered in the context of effects on social interaction that show that positive affect leads to helping, generosity, and interpersonal understanding. Together, these findings suggest implications especially for customer satisfaction, and particularly for a role for employee positive affect, or employee satisfaction, in generating customer satisfaction. Moreover, studies specifically in the domain of medical decision making and problem solving indicate that these implications would apply to the specific areas of doctor–patient interaction, medical decision making, and medical consumer satisfaction. Finally, it is suggested that the benefits of positive affect be considered when formulating healthcare policy and be included in economic models and policy decisions more generally as well.}
+      \field{journaltitle}{Journal of Consumer Psychology}
+      \field{number}{2}
+      \field{title}{An Influence of Positive Affect on Decision Making in Complex Situations: Theoretical Issues With Practical Implications}
+      \field{volume}{11}
+      \field{year}{2001}
+      \field{pages}{75\bibrangedash 85}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1207/S15327663JCP1102\_01
+      \endverb
+      \verb{eprint}
+      \verb https://myscp.onlinelibrary.wiley.com/doi/pdf/10.1207/S15327663JCP1102_01
+      \endverb
+      \verb{urlraw}
+      \verb https://myscp.onlinelibrary.wiley.com/doi/abs/10.1207/S15327663JCP1102_01
+      \endverb
+      \verb{url}
+      \verb https://myscp.onlinelibrary.wiley.com/doi/abs/10.1207/S15327663JCP1102_01
+      \endverb
+    \endentry
+    \entry{picard1997}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7dd0cb6b02efa214ad5f10a28d1241b6}{%
+           family={Picard},
+           familyi={P\bibinitperiod},
+           given={Rosalind\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{7dd0cb6b02efa214ad5f10a28d1241b6}
+      \strng{fullhash}{7dd0cb6b02efa214ad5f10a28d1241b6}
+      \strng{fullhashraw}{7dd0cb6b02efa214ad5f10a28d1241b6}
+      \strng{bibnamehash}{7dd0cb6b02efa214ad5f10a28d1241b6}
+      \strng{authorbibnamehash}{7dd0cb6b02efa214ad5f10a28d1241b6}
+      \strng{authornamehash}{7dd0cb6b02efa214ad5f10a28d1241b6}
+      \strng{authorfullhash}{7dd0cb6b02efa214ad5f10a28d1241b6}
+      \strng{authorfullhashraw}{7dd0cb6b02efa214ad5f10a28d1241b6}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Affective computing}
+      \field{year}{1997}
+    \endentry
+    \entry{russell2020}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=143fa183327d9fcd9de18eec99d6ca97}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5de798d5fa3c0236c0478134cd23f52a}{%
+           family={Norvig},
+           familyi={N\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhashraw}{b280605b721b4ebcba5395298499f924}
+      \strng{bibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorbibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authornamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhashraw}{b280605b721b4ebcba5395298499f924}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Artificial intelligence: A modern approach (4th ed.)}
+      \field{year}{2020}
+    \endentry
+    \entry{slovic2007}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1f98811f35f2a5d68ea95bf9b4def931}{%
+           family={Slovic},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33d36ddc214974a8265e960965f173fc}{%
+           family={Finucane},
+           familyi={F\bibinitperiod},
+           given={Melissa\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d85a91e843826538f729359a5dad1677}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Ellen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ef28e6cea070b260fabab8053a43d3b}{%
+           family={MacGregor},
+           familyi={M\bibinitperiod},
+           given={Donald\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9b9bbac5340991e2442bf1c7f306c173}
+      \strng{fullhash}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{fullhashraw}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{bibnamehash}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{authorbibnamehash}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{authornamehash}{9b9bbac5340991e2442bf1c7f306c173}
+      \strng{authorfullhash}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{authorfullhashraw}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper introduces a theoretical framework that describes the importance of affect in guiding judgments and decisions. As used here, “affect” means the specific quality of “goodness” or “badness” (i) experienced as a feeling state (with or without consciousness) and (ii) demarcating a positive or negative quality of a stimulus. Affective responses occur rapidly and automatically—note how quickly you sense the feelings associated with the stimulus word “treasure” or the word “hate”. We argue that reliance on such feelings can be characterized as “the affect heuristic”. In this paper we trace the development of the affect heuristic across a variety of research paths followed by ourselves and many others. We also discuss some of the important practical implications resulting from ways that this heuristic impacts our daily lives.}
+      \field{issn}{0377-2217}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{number}{3}
+      \field{title}{The affect heuristic}
+      \field{volume}{177}
+      \field{year}{2007}
+      \field{pages}{1333\bibrangedash 1352}
+      \range{pages}{20}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.ejor.2005.04.006
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0377221705003577
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0377221705003577
+      \endverb
+      \keyw{Affect heuristic,Judgment,Decision making,Risk perception}
+    \endentry
+    \entry{kahneman1974}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=031d0d5f9391d970f6f089af958f701d}{%
+           family={Tversky},
+           familyi={T\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{fullhash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{fullhashraw}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{bibnamehash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{authorbibnamehash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{authornamehash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{authorfullhash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{authorfullhashraw}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article described three heuristics that are employed in making judgments under uncertainty: (i) representativeness, which is usually employed when people are asked to judge the probability that an object or event A belongs to class or process B; (ii) availability of instances or scenarios, which is often employed when people are asked to assess the frequency of a class or the plausibility of a particular development; and (iii) adjustment from an anchor, which is usually employed in numerical prediction when a relevant value is available. These heuristics are highly economical and usually effective, but they lead to systematic and predictable errors. A better understanding of these heuristics and of the biases to which they lead could improve judgments and decisions in situations of uncertainty.}
+      \field{journaltitle}{Science}
+      \field{number}{4157}
+      \field{title}{Judgment under Uncertainty: Heuristics and Biases}
+      \field{volume}{185}
+      \field{year}{1974}
+      \field{pages}{1124\bibrangedash 1131}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1126/science.185.4157.1124
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/science.185.4157.1124
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.185.4157.1124
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.185.4157.1124
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{chomsky1965}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=28167c0b3800bc5cfb686676277005b0}{%
+           family={Chomsky},
+           familyi={C\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{fullhash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{fullhashraw}{28167c0b3800bc5cfb686676277005b0}
+      \strng{bibnamehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authorbibnamehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authornamehash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authorfullhash}{28167c0b3800bc5cfb686676277005b0}
+      \strng{authorfullhashraw}{28167c0b3800bc5cfb686676277005b0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Aspects of the theory of syntax}
+      \field{year}{1965}
+    \endentry
+    \entry{gigerenzer2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b48d2c7ac3f28cdcd52b92c3c2953a61}{%
+           family={Gigerenzer},
+           familyi={G\bibinitperiod},
+           given={Gerd},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b4ee24058ffe2d14df3188027e17c696}{%
+           family={Brighton},
+           familyi={B\bibinitperiod},
+           given={Henry},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{71368eec16817037735ab897ec8bb50d}
+      \strng{fullhash}{71368eec16817037735ab897ec8bb50d}
+      \strng{fullhashraw}{71368eec16817037735ab897ec8bb50d}
+      \strng{bibnamehash}{71368eec16817037735ab897ec8bb50d}
+      \strng{authorbibnamehash}{71368eec16817037735ab897ec8bb50d}
+      \strng{authornamehash}{71368eec16817037735ab897ec8bb50d}
+      \strng{authorfullhash}{71368eec16817037735ab897ec8bb50d}
+      \strng{authorfullhashraw}{71368eec16817037735ab897ec8bb50d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Heuristics are efficient cognitive processes that ignore information. In contrast to the widely held view that less processing reduces accuracy, the study of heuristics shows that less information, computation, and time can in fact improve accuracy. We review the major progress made so far: (a) the discovery of less-is-more effects; (b) the study of the ecological rationality of heuristics, which examines in which environments a given strategy succeeds or fails, and why; (c) an advancement from vague labels to computational models of heuristics; (d) the development of a systematic theory of heuristics that identifies their building blocks and the evolved capacities they exploit, and views the cognitive system as relying on an “adaptive toolbox;” and (e) the development of an empirical methodology that accounts for individual differences, conducts competitive tests, and has provided evidence for people’s adaptive use of heuristics. Homo heuristicus has a biased mind and ignores part of the available information, yet a biased mind can handle uncertainty more efficiently and robustly than an unbiased mind relying on more resource-intensive and general-purpose processing strategies.}
+      \field{journaltitle}{Topics in Cognitive Science}
+      \field{number}{1}
+      \field{title}{Homo Heuristicus: Why Biased Minds Make Better Inferences}
+      \field{volume}{1}
+      \field{year}{2009}
+      \field{pages}{107\bibrangedash 143}
+      \range{pages}{37}
+      \verb{doi}
+      \verb https://doi.org/10.1111/j.1756-8765.2008.01006.x
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1756-8765.2008.01006.x
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1756-8765.2008.01006.x
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1756-8765.2008.01006.x
+      \endverb
+      \keyw{Heuristics,Decision-making,Inferences,Rationality,Uncertainity,Induction}
+    \endentry
+    \entry{ieee2019}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e2dd85d5ed4ff94326a8b5cb5fb21ab4}{%
+           family={{Institute of Electrical and Electronics Engineers}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{fullhash}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{fullhashraw}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{bibnamehash}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{authorbibnamehash}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{authornamehash}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{authorfullhash}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \strng{authorfullhashraw}{e2dd85d5ed4ff94326a8b5cb5fb21ab4}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Ethically aligned design: A vision for prioritizing human well-being with autonomous and intelligent systems (1st ed.)}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://standards.ieee.org/content/dam/ieee-standards/standards/web/documents/other/ead1e.pdf
+      \endverb
+      \verb{url}
+      \verb https://standards.ieee.org/content/dam/ieee-standards/standards/web/documents/other/ead1e.pdf
+      \endverb
+    \endentry
+    \entry{isen2001}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=90851887e21c461d2ab602974251b206}{%
+           family={Isen},
+           familyi={I\bibinitperiod},
+           given={Alice\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{90851887e21c461d2ab602974251b206}
+      \strng{fullhash}{90851887e21c461d2ab602974251b206}
+      \strng{fullhashraw}{90851887e21c461d2ab602974251b206}
+      \strng{bibnamehash}{90851887e21c461d2ab602974251b206}
+      \strng{authorbibnamehash}{90851887e21c461d2ab602974251b206}
+      \strng{authornamehash}{90851887e21c461d2ab602974251b206}
+      \strng{authorfullhash}{90851887e21c461d2ab602974251b206}
+      \strng{authorfullhashraw}{90851887e21c461d2ab602974251b206}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article reviews evidence indicating that, in most circumstances, positive affect enhances problem solving and decision making, leading to cognitive processing that is not only flexible, innovative, and creative, but also thorough and efficient. These results have implications regarding consumers’ potential reactions to affect generated by ads, products, consumption situations, and service encounters. These cognitive effects of positive affect are considered in the context of effects on social interaction that show that positive affect leads to helping, generosity, and interpersonal understanding. Together, these findings suggest implications especially for customer satisfaction, and particularly for a role for employee positive affect, or employee satisfaction, in generating customer satisfaction. Moreover, studies specifically in the domain of medical decision making and problem solving indicate that these implications would apply to the specific areas of doctor–patient interaction, medical decision making, and medical consumer satisfaction. Finally, it is suggested that the benefits of positive affect be considered when formulating healthcare policy and be included in economic models and policy decisions more generally as well.}
+      \field{journaltitle}{Journal of Consumer Psychology}
+      \field{number}{2}
+      \field{title}{An Influence of Positive Affect on Decision Making in Complex Situations: Theoretical Issues With Practical Implications}
+      \field{volume}{11}
+      \field{year}{2001}
+      \field{pages}{75\bibrangedash 85}
+      \range{pages}{11}
+      \verb{doi}
+      \verb https://doi.org/10.1207/S15327663JCP1102\_01
+      \endverb
+      \verb{eprint}
+      \verb https://myscp.onlinelibrary.wiley.com/doi/pdf/10.1207/S15327663JCP1102_01
+      \endverb
+      \verb{urlraw}
+      \verb https://myscp.onlinelibrary.wiley.com/doi/abs/10.1207/S15327663JCP1102_01
+      \endverb
+      \verb{url}
+      \verb https://myscp.onlinelibrary.wiley.com/doi/abs/10.1207/S15327663JCP1102_01
+      \endverb
+    \endentry
+    \entry{picard1997}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7dd0cb6b02efa214ad5f10a28d1241b6}{%
+           family={Picard},
+           familyi={P\bibinitperiod},
+           given={Rosalind\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{7dd0cb6b02efa214ad5f10a28d1241b6}
+      \strng{fullhash}{7dd0cb6b02efa214ad5f10a28d1241b6}
+      \strng{fullhashraw}{7dd0cb6b02efa214ad5f10a28d1241b6}
+      \strng{bibnamehash}{7dd0cb6b02efa214ad5f10a28d1241b6}
+      \strng{authorbibnamehash}{7dd0cb6b02efa214ad5f10a28d1241b6}
+      \strng{authornamehash}{7dd0cb6b02efa214ad5f10a28d1241b6}
+      \strng{authorfullhash}{7dd0cb6b02efa214ad5f10a28d1241b6}
+      \strng{authorfullhashraw}{7dd0cb6b02efa214ad5f10a28d1241b6}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Affective computing}
+      \field{year}{1997}
+    \endentry
+    \entry{russell2020}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=143fa183327d9fcd9de18eec99d6ca97}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5de798d5fa3c0236c0478134cd23f52a}{%
+           family={Norvig},
+           familyi={N\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson}%
+      }
+      \strng{namehash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{fullhashraw}{b280605b721b4ebcba5395298499f924}
+      \strng{bibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorbibnamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authornamehash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhash}{b280605b721b4ebcba5395298499f924}
+      \strng{authorfullhashraw}{b280605b721b4ebcba5395298499f924}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Artificial intelligence: A modern approach (4th ed.)}
+      \field{year}{2020}
+    \endentry
+    \entry{slovic2007}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=1f98811f35f2a5d68ea95bf9b4def931}{%
+           family={Slovic},
+           familyi={S\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33d36ddc214974a8265e960965f173fc}{%
+           family={Finucane},
+           familyi={F\bibinitperiod},
+           given={Melissa\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d85a91e843826538f729359a5dad1677}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Ellen},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ef28e6cea070b260fabab8053a43d3b}{%
+           family={MacGregor},
+           familyi={M\bibinitperiod},
+           given={Donald\bibnamedelima G.},
+           giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9b9bbac5340991e2442bf1c7f306c173}
+      \strng{fullhash}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{fullhashraw}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{bibnamehash}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{authorbibnamehash}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{authornamehash}{9b9bbac5340991e2442bf1c7f306c173}
+      \strng{authorfullhash}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \strng{authorfullhashraw}{ca9c33de9ce1e274fbeaae1c79bc8210}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper introduces a theoretical framework that describes the importance of affect in guiding judgments and decisions. As used here, “affect” means the specific quality of “goodness” or “badness” (i) experienced as a feeling state (with or without consciousness) and (ii) demarcating a positive or negative quality of a stimulus. Affective responses occur rapidly and automatically—note how quickly you sense the feelings associated with the stimulus word “treasure” or the word “hate”. We argue that reliance on such feelings can be characterized as “the affect heuristic”. In this paper we trace the development of the affect heuristic across a variety of research paths followed by ourselves and many others. We also discuss some of the important practical implications resulting from ways that this heuristic impacts our daily lives.}
+      \field{issn}{0377-2217}
+      \field{journaltitle}{European Journal of Operational Research}
+      \field{number}{3}
+      \field{title}{The affect heuristic}
+      \field{volume}{177}
+      \field{year}{2007}
+      \field{pages}{1333\bibrangedash 1352}
+      \range{pages}{20}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.ejor.2005.04.006
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0377221705003577
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0377221705003577
+      \endverb
+      \keyw{Affect heuristic,Judgment,Decision making,Risk perception}
+    \endentry
+    \entry{kahneman1974}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=031d0d5f9391d970f6f089af958f701d}{%
+           family={Tversky},
+           familyi={T\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{fullhash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{fullhashraw}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{bibnamehash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{authorbibnamehash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{authornamehash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{authorfullhash}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \strng{authorfullhashraw}{e03b8c64a28ec0d8081c6f4ded219ba3}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This article described three heuristics that are employed in making judgments under uncertainty: (i) representativeness, which is usually employed when people are asked to judge the probability that an object or event A belongs to class or process B; (ii) availability of instances or scenarios, which is often employed when people are asked to assess the frequency of a class or the plausibility of a particular development; and (iii) adjustment from an anchor, which is usually employed in numerical prediction when a relevant value is available. These heuristics are highly economical and usually effective, but they lead to systematic and predictable errors. A better understanding of these heuristics and of the biases to which they lead could improve judgments and decisions in situations of uncertainty.}
+      \field{journaltitle}{Science}
+      \field{number}{4157}
+      \field{title}{Judgment under Uncertainty: Heuristics and Biases}
+      \field{volume}{185}
+      \field{year}{1974}
+      \field{pages}{1124\bibrangedash 1131}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1126/science.185.4157.1124
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/science.185.4157.1124
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.185.4157.1124
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.185.4157.1124
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
